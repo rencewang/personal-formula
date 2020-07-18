@@ -1,0 +1,44 @@
+                    <ul className={style.slider}>
+                    <li className={`${style.slideritem} ${style.active}`}>
+                        <div className={`grid ${style.vertical}`}>
+
+                        <div className={`column-xs-12 column-md-2 ${style.hidemobile}`}>
+                            <div className={style.intro}>
+                            <a href="#">
+                                <h1 className={style.title}><span className={style.underline}>Explore Tokyo</span></h1>
+                            </a>
+                            </div>
+                        </div>
+
+                        <div className="column-xs-12 column-md-10">
+                            <div className={style.imageholder}>
+                                <img src="https://source.unsplash.com/cddaZDt6uRw" />
+                            </div>
+                            <div className="grid">
+                            <div className="column-xs-12 column-md-9">
+                                <div className={`${style.intro} ${style.showmobile}`}>
+                                <a href="#">
+                                    <h1 className={style.title}><span class={style.underline}>Explore Tokyo</span></h1>
+                                </a>
+                                </div>
+                                <p className={style.description}>Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples.</p>
+                            </div>
+                            </div>
+                        </div>
+
+                        </div>
+                    </li>
+                    </ul>
+
+                    <div className="grid">
+                        <div className="column-xs-12">
+                        <div className={style.controls}>
+                            <button className="previous">
+                                <Icon icon={leftArrow} />
+                            </button>
+                            <button className="next">
+                                <Icon icon={rightArrow} />
+                            </button>
+                        </div>
+                        </div>
+                    </div>

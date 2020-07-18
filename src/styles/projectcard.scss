@@ -1,0 +1,92 @@
+@import "./general.scss";
+
+$white: #fff;
+$black: #232323;
+$gray: #8d8d8d;
+$red: #e83f43;
+
+img {
+	width: 100%;
+  height: 43vh;
+  object-fit: cover;
+  @media (min-width: 992px) {
+    height: 60vh;
+  }
+}
+
+.intro {
+  position: relative;
+  z-index: 2;
+  .title {
+    display: inline-block;
+    margin: 0;
+    padding: 1rem 0 0 0.5rem;
+    font-family: $listTitleFont;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1;
+    @media (min-width: 992px) {
+      font-size: 3rem;
+      padding: 2rem 0 0 1rem;
+    }
+  }
+  .description {
+    position: relative;
+    margin: 0.3rem 0 0 0;
+    font-size: 1rem;
+    @media (min-width: 992px) {
+      font-size: 1.25rem;
+      margin: 0.5rem 0 0 0;
+    }
+  }
+}
+
+.slider {
+    list-style: none;
+    padding: 0;
+    .project-slideritem {
+      display: none;
+      &.active {
+          display: block;
+      }
+    }
+}
+
+.project-controls {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  button {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+  }
+  .previous {
+    border: 2px solid $black;
+  }
+  .next {
+    border-top: 2px solid $black;
+    border-right: 2px solid $black;
+    border-bottom: 2px solid $black;
+  }
+  .previous, 
+  .next {
+    display: flex;
+    justify-content: center;
+    flex-basis: 30%;
+    font-size: 2rem;
+    color: black;
+    i {
+      display: flex;
+      align-items: center;
+      transition: all 0.1s ease;
+        &:hover {
+          transform: scale(1.5);
+      }
+    }
+    @media only screen and (min-width: 992px) {
+      flex-basis: 10%;
+    }
+  }
+}

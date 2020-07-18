@@ -1,21 +1,20 @@
 header {
     border-bottom: 2px solid black;
+    padding: 5px 0;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    z-index: 999;
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(6px);
     font-size: 20px;
-    padding: 5px 0;
     .navigation {
         display: flex;
         div:not(:first-child) {
             padding-left: 10px;
         }
-    }
-    .logo {
-        height: 100px;
-        width: 50%;
     }
 }
 
