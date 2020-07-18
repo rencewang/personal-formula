@@ -1,0 +1,43 @@
+$backgroundColor: #f2f2f2;
+$bodyColor: #000000;
+$accentColor: #cc1100;
+
+$bodyFont: "Inter", sans-serif;
+$headerFont: "aktiv-grotesk-extended", sans-serif;
+$listTitleFont: "Millionaire Script", serif;
+$subtitlefont: "neue-haas-grotesk-text", "aktiv-grotesk", sans-serif; 
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    &::before, &::after {
+      box-sizing: border-box;
+    }
+}
+
+body {
+    background: $backgroundColor;
+    color: $bodyColor;
+    font-family: $bodyFont;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: $bodyColor;
+}
+
+.container {
+    width: 95%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
