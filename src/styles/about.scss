@@ -1,3 +1,64 @@
+@import "./general.scss";
+
 .about {
+    display: block;
+    position: fixed;
+    z-index: 10;
+    bottom: -100%;
     width: 100%;
+    visibility: hidden;
+    overflow: auto;
+    background-color: rgba(242, 242, 242, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition: visibility 0s linear 1s, opacity 0.25s 0s, bottom 0.7s, -webkit-transform 1s;
+    transition: visibility 0s linear 1s, opacity 0.25s 0s, bottom 0.7s, -webkit-transform 1s;
+    -o-transition: visibility 0s linear 1s, opacity 0.25s 0s, transform 1s, bottom 0.7s;
+    -moz-transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
+    transition: visibility 0s linear 1s, opacity 0.25s 0s, transform 1s, bottom 0.7s;
+    transition: visibility 0s linear 1s, opacity 0.25s 0s, transform 1s, bottom 0.7s, -webkit-transform 1s;
+    border-top: 2px solid black;
+    p {
+        margin: 0 auto 10px auto;
+        font-size: 1.3rem;
+    }
+    button {
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        font-size: 1rem;
+        background-color: rgba(242, 242, 242, 0);
+        padding: 0;
+    }
+    .about-text {
+        border-top: 2px solid black;
+    }
+    > div {
+        padding: 5px 0;
+    }
+}
+
+.about-show {
+    display: block;
+    position: fixed;
+    opacity: 1;
+    bottom: 0;
+    visibility: visible;
+    overflow: auto;
+    z-index: 10;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition: visibility 0s linear 0s, opacity 0.25s 0s, bottom 0.7s, -webkit-transform 0.8s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, bottom 0.7s, -webkit-transform 0.8s;
+    -o-transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
+    -moz-transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s, -webkit-transform 0.8s;
 }

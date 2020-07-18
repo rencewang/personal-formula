@@ -31,40 +31,40 @@ export default () => {
             greetingText = "The lies I weave are all so intricate."
             break;
         case 4: 
-            greetingText = "We could follow the sparks, I'll drive"
+            greetingText = "We could follow the sparks, I'll drive."
             break;
         case 5: 
-            greetingText = "Don't you know there's a part of me that longs to go"
+            greetingText = "Don't you know there's a part of me that longs to go."
             break;
         case 6: 
-            greetingText = "In my darkest hours I stumbled on a secret power"
+            greetingText = "In my darkest hours I stumbled on a secret power."
             break;
         case 7: 
-            greetingText = "Turn around and you’ll see what I see"
+            greetingText = "Turn around and you’ll see what I see."
             break;
         case 8: 
-            greetingText = "To be honest, what I liked, were the things I didn’t know"
+            greetingText = "To be honest, what I liked, were the things I didn’t know."
             break;
         case 9: 
-            greetingText = "Would you believe me now, if I say I got caught up in a wave, almost gave it away"
+            greetingText = "Would you believe me now, if I say I got caught up in a wave, almost gave it away."
             break;
         case 10: 
-            greetingText = "But I'm still not sure if fear's a rival or close relative to truth"
+            greetingText = "But I'm still not sure if fear's a rival or close relative to truth."
             break;
         case 11: 
-            greetingText = "Hang your head low in the glow of the vending machine I'm not dying"
+            greetingText = "Hang your head low in the glow of the vending machine I'm not dying."
             break;
         case 12: 
-            greetingText = "There's no going back against this California feeling"
+            greetingText = "There's no going back against this California feeling."
             break;
         case 13: 
             greetingText = "I guess you win some and lose some, 'long as the outcome's income. I want it all, and then some."
             break;
         case 14: 
-            greetingText = "It’s a train wreck, but I won’t crash it"
+            greetingText = "It’s a train wreck, but I won’t crash it."
             break;
         case 15: 
-            greetingText = "But here we are, after all the messes and confessions, to the stars"
+            greetingText = "But here we are, after all the messes and confessions, to the stars."
             break;
         case 16: 
             greetingText = "I hope this summer breeze would last more than a season."

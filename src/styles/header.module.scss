@@ -3,6 +3,7 @@ header {
     padding: 5px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     width: inherit;
@@ -14,7 +15,17 @@ header {
         display: flex;
         div:not(:first-child) {
             padding-left: 10px;
+            @media only screen and (max-width: 600px) {
+                padding-left: 5px;
+            }
         }
+    }
+    button {
+        cursor: pointer;
+        outline: none;
+        border: 0;
+        font-size: 1rem;
+        background-color: rgba(242, 242, 242, 0);
     }
 }
 
@@ -29,12 +40,18 @@ footer {
         padding-bottom: 5px;
         display: flex;
         justify-content: space-between;
-        &:first-child {
+        span:first-child {
             text-align: left;
+            @media only screen and (max-width: 600px) {
+                display: none;
+            }
         }
-        &:last-child {
+        span:last-child {
             text-align: right;
             // text-transform: capitalize;
+            @media only screen and (max-width: 600px) {
+                text-align: left;
+            }
         }
     }
 }
