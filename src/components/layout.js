@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
+import AboutBlock from "../components/aboutblock"
 
 import "../styles/general.scss"
 
@@ -22,9 +23,10 @@ const Layout = ({ children }) => {
     <div className="container">
       <Header />
       <div className="content">
-        <main>{children}</main>
+        {children}
       </div>
       <Footer />
+      <AboutBlock />
     </div>
   )
 }

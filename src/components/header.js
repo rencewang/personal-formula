@@ -26,13 +26,13 @@ const Header = () => {
 
       <div className={style.navigation}>
         <div>
-          <Link to="/">
+          <Link to="/project">
             Project
           </Link>
         </div>
         &nbsp;
         <div>
-          <Link to="/">
+          <Link to="/blog">
             Writing
           </Link>
         </div>

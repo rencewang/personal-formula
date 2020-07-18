@@ -4,14 +4,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ProjectCard from "../components/projectcard"
 import BlogFeatured from "../components/blogfeatured"
-import AboutBlock from "../components/aboutblock"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="" />
     <ProjectCard />
-    <BlogFeatured />
-    <AboutBlock />
+    <div style={{margin: "40px auto"}}>
+      <BlogFeatured />
+    </div>
   </Layout>
 )
 

@@ -33,6 +33,9 @@ a {
     text-decoration: none;
     color: $bodyColor;
 }
+button {
+    font-family: $bodyFont;
+}
 
 .container {
     width: 95%;
