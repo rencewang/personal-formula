@@ -5,7 +5,6 @@ import leftArrow from "@iconify/icons-ion/ios-arrow-thin-left"
 import rightArrow from "@iconify/icons-ion/ios-arrow-thin-right"
 
 import "../styles/projectcard.scss"
-import "../styles/12columns.scss"
 
 const ProjectCard = () => {
 
@@ -38,7 +37,7 @@ const ProjectCard = () => {
     }
 
     return (
-        <div className="projectpost">
+        <main className="projectpost">
 
             <ul className="slider">
                 <li className="project-slideritem active">
@@ -47,38 +46,38 @@ const ProjectCard = () => {
                     </div>
                     <div className="intro">
                         <Link to="/">
-                            <h1 className="title">Explore Tokyo Project 1</h1>
+                            <h1 className="title">The Politic: Presidential Hopefuls</h1>
                         </Link>
                         <div>
-                            <p className="description">Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples.</p>
+                            <p className="description">As a part of the Tech Team, I helped develop this minisite showcasing The Yale Politic's features &amp; interviews conducted over the past years about the presidential candidates for the 2020 election.</p>
                         </div>
                     </div>
                 </li>
 
                 <li className="project-slideritem">
                     <div className="imageholder">
-                        <img src="https://source.unsplash.com/featured/?sakura" />
+                        <img src="https://source.unsplash.com/featured/?tree" />
                     </div>
                     <div className="intro">
                         <a href="#">
-                            <h1 className="title">Explore Tokyo Project 2</h1>
+                            <h1 className="title">10 Albums of the 2010s</h1>
                         </a>
                         <div>
-                            <p className="description">Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples.</p>
+                            <p className="description">The 2010s was a defining decade in music. It marked the beginning of my exploration through genres and artists, and I wanted to commemorate the decade with a "book" bound in a jewel box and printed on an 19th century printing press.</p>
                         </div>
                     </div>
                 </li>
 
                 <li className="project-slideritem">
                     <div className="imageholder">
-                        <img src="https://source.unsplash.com/featured/?sakura" />
+                        <img src="https://source.unsplash.com/featured/?beach" />
                     </div>
                     <div className="intro">
                         <a href="#">
-                            <h1 className="title">Explore Tokyo Project 3</h1>
+                            <h1 className="title">Lover: A Virtual Experience</h1>
                         </a>
                         <div>
-                            <p className="description">Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples.</p>
+                            <p className="description">Inspired by Lover, I wanted to create a virtual reality experience that would capture the feeling of getting lost in the songs. The result was a floating dreamscape that enhances the listening experience.</p>
                         </div>
                     </div>
                 </li>
@@ -93,7 +92,7 @@ const ProjectCard = () => {
                 </button>
             </div>
 
-        </div>
+        </main>
     )
 }
 
