@@ -22,7 +22,7 @@ const Post = ({
     return(
         <article className={style.post}>
             <div className={style.postheading}>
-                <div className={style.posttitle}>{title}</div>
+                <div className={style.posttitle}>{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
                 <div className={style.postdate}>{date}</div>
                 <div className={style.postcat}>{category}</div>
             </div>

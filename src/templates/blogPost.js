@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import SEO from '../components/seo'
@@ -9,18 +9,18 @@ import Post from "../components/blogpostmodule"
 
 import "../styles/projectbloggrid.scss"
 
-const BlogPostTemplate = ({ data }) => {
+const BlogPostTemplate = ({ data, pageContext }) => {
     const {
-        frontmatter: { title, updated, permalink, excerpt, tag, category },
+        frontmatter: { title, updated, permalink, tag, category },
         excerpt: autoExcerpt,
         id,
         html,
-    } = data.allMarkdownRemark.edges.node
-    // const { next, previous } = pageContext
+    } = data.markdownRemark
+    const { next, previous } = pageContext
 
     return (
         <Layout>
-          <SEO title={title} description={excerpt || autoExcerpt} />
+          <SEO title={title} description={autoExcerpt} />
 
             <div className="pbgrid">
                 <div className="pbcontent">
@@ -48,24 +48,18 @@ const BlogPostTemplate = ({ data }) => {
 export default BlogPostTemplate
 
 export const postQuery = graphql `
-    query PostsQuery {
-        allMarkdownRemark (filter: {
-        frontmatter: { type: {eq: "post"}, published: {eq: true} }
-        }) {
-        edges {
-        node {
+    query PostsQuery ($path: String) {
+        markdownRemark(frontmatter: { permalink: { eq: $path } }) {
             frontmatter {
-            title
-            updated(formatString: "MMMM DD[,] YYYY")
-            tag
-            category
-            permalink
+                title
+                updated(formatString: "MMMM DD[,] YYYY")
+                tag
+                category
+                permalink
             }
             id
             html
             excerpt
         }
-        }
-    }
     }
 `
