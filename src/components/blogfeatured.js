@@ -1,39 +1,55 @@
-import React from "react"
+import React, { useState } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 import "../styles/blogfeatured.scss"
 
 const BlogFeatured = () => {
 
+    const data = useStaticQuery(graphql`
+    query BlogFeaturedQuery {
+        allMarkdownRemark (
+        filter: {
+            frontmatter: { tag: {in: "Featured"} }
+        }
+        sort: {
+            fields: [frontmatter___updated]
+            order: DESC
+        }) {
+            edges {
+                node {
+                    frontmatter {
+                        title
+                        permalink
+                        updated(formatString: "MMMM DD[,] YYYY")
+                        category
+                        permalink
+                    }
+                    id
+                    excerpt(pruneLength: 400)
+                }
+            }
+        }
+    }`)
+
     return (
         <main className="blogfeatured">
 
-            <div className="accordionpiece">
-                <input type="checkbox" id="1" name="accordion" />
-                <label htmlFor="1">Norman Fucking Rockwell!: Coexisting Hope and Despair</label>
-                <div>
-                    <p>For me, a good Lana song does two things: 1) makes me fall asleep and 2) gives me edgy inspiration upon further examination (the next morning, as it usually turns out). So it should come as no surprise that The Next Best American Record happened to be the first song...</p>
-                    <div className="readmore-links">
-                        <a href="/" >CONTINUE READING</a>
+            {data.allMarkdownRemark.edges.map(featuredPost => (
+                <div className="accordionpiece">
+                    <input type="checkbox" id={featuredPost.node.id} name="accordion" />
+                    <label htmlFor={featuredPost.node.id}>{featuredPost.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</label>
+                    <div>
+                        <p>{featuredPost.node.excerpt}</p>
+                        <div className="readmore-links">
+                            <div>{featuredPost.node.frontmatter.updated}</div>
+                            <a href={featuredPost.node.frontmatter.permalink}>CONTINUE READING</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="accordionpiece">
-                <input type="checkbox" id="2" name="accordion" />
-                <label htmlFor="2">Norman Fucking Rockwell!: Coexisting Hope and Despair</label>
-                <div>
-                    <p>For me, a good Lana song does two things: 1) makes me fall asleep and 2) gives me edgy inspiration upon further examination (the next morning, as it usually turns out). So it should come as no surprise that The Next Best American Record happened to be the first song...</p>
-                    <div className="readmore-links">
-                        <a href="/" >CONTINUE READING</a>
-                    </div>
-                </div>
-            </div>
+            ))}
 
         </main>
     )
 }
 
 export default BlogFeatured
-
-// style="text-align: left; float: left;
