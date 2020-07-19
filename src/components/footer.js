@@ -100,7 +100,7 @@ export default () => {
                 <span id="clock">{time.toLocaleTimeString()}</span>
                 <span id="greeting">{greetingText}</span>
             </div>
-            &copy; {(new Date()).getFullYear()} with ⌘ from LA &amp; NH
+            &copy; {(new Date()).getFullYear()} code &amp; design by me 满载星海 from LA
         </footer>
     )
 }
