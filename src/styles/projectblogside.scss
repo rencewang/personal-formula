@@ -1,7 +1,40 @@
-.sidenav {
+.projectsidenav {
     border-left: 2px solid black;
     height: 100%;
     h4 {
         margin: 0; padding: 0;
+    }
+}
+
+.blogcategorylist {
+    border-left: 2px solid black;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .category {
+        &:not(:first-child) {
+            border-top: 2px solid black;
+        }
+        > h2 {
+            margin: 0; 
+            padding: 5px;
+            width: 100%;
+            font-size: 2rem;
+            font-weight: 300;
+            @media (min-width: 992px) {
+                font-size: 3rem;
+            }
+            border-bottom: 2px solid black;  
+        }
+        > h4 {
+            margin: 0; 
+            padding: 5px;
+            width: 100%;
+            font-size: 1rem;
+            font-weight: 400;
+            @media (min-width: 992px) {
+                font-size: 1.5rem;
+            }
+        }
     }
 }

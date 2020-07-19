@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import "../styles/header.module.scss"
+import "../../styles/header.module.scss"
 
 export default () => {
     // Clock display ONLY

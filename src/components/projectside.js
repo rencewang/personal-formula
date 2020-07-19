@@ -6,7 +6,7 @@ import "../styles/projectblogside.scss"
 const ProjectSide = () => {
 
     return (
-        <div className="sidenav">
+        <div className="projectsidenav">
             <h4>Project Name</h4>
             <h4>Project Name</h4>
             <h4>Project Name</h4>

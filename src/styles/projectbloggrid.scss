@@ -12,6 +12,16 @@
         height: 89vh;
         overflow-y: scroll;
         padding: 0 5px 10px 0;
+        > h2 {
+            margin: 0; padding: 0;
+            width: 100%;
+            border-bottom: 2px solid black;
+            font-size: 3rem;
+            font-weight: 300;
+            @media (min-width: 992px) {
+                font-size: 5rem;
+            }
+        }
     }
     .pbnav {
         grid-area: "navigation";

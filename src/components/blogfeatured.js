@@ -8,13 +8,9 @@ const BlogFeatured = () => {
     const data = useStaticQuery(graphql`
     query BlogFeaturedQuery {
         allMarkdownRemark (
-        filter: {
-            frontmatter: { tag: {in: "Featured"} }
-        }
-        sort: {
-            fields: [frontmatter___updated]
-            order: DESC
-        }) {
+            filter: { frontmatter: { tag: {in: "Featured"}, type: {eq: "post"} } }
+            sort: { fields: [frontmatter___updated] order: DESC }
+        ) {
             edges {
                 node {
                     frontmatter {
@@ -22,7 +18,6 @@ const BlogFeatured = () => {
                         permalink
                         updated(formatString: "MMMM DD[,] YYYY")
                         category
-                        permalink
                     }
                     id
                     excerpt(pruneLength: 400)
@@ -42,7 +37,7 @@ const BlogFeatured = () => {
                         <p>{featuredPost.node.excerpt}</p>
                         <div className="readmore-links">
                             <div>{featuredPost.node.frontmatter.updated}</div>
-                            <a href={featuredPost.node.frontmatter.permalink}>CONTINUE READING</a>
+                            <Link to={featuredPost.node.frontmatter.permalink}>CONTINUE READING</Link>
                         </div>
                     </div>
                 </div>

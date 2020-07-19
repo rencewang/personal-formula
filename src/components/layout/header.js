@@ -1,8 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import style from "../styles/header.module.scss"
-import "../styles/about.scss"
+import style from "../../styles/header.module.scss"
+import "../../styles/about.scss"
 
 const Header = () => {
 
