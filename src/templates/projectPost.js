@@ -7,7 +7,7 @@ import Layout from '../components/layout/layout'
 import ProjectSide from "../components/projectside"
 import Post from "../components/projectpostmodule"
 
-import "../styles/projectbloggrid.scss"
+import "../styles/projectgrid.scss"
 
 const ProjectPostTemplate = ({ data, pageContext }) => {
     const {
@@ -22,8 +22,8 @@ const ProjectPostTemplate = ({ data, pageContext }) => {
         <Layout>
           <SEO title={title.replace("&#58;", ":").replace("&amp;", "&")} description={autoExcerpt} />
 
-            <div className="pbgrid">
-                <div className="pbcontent">
+            <div className="projectgrid">
+                <div className="projectgrid-content">
                 <Post
                     key={id}
                     title={title}
@@ -37,7 +37,7 @@ const ProjectPostTemplate = ({ data, pageContext }) => {
                     nextPost={next}
                 />
                 </div>
-                <div className="pbnav">
+                <div className="projectgrid-nav">
                     <ProjectSide />
                 </div>
             </div>

@@ -7,7 +7,7 @@ import Layout from '../components/layout/layout'
 import BlogSide from "../components/blogside"
 import Post from "../components/blogpostmodule"
 
-import "../styles/projectbloggrid.scss"
+import "../styles/bloggrid.scss"
 
 const BlogPostTemplate = ({ data, pageContext }) => {
     const {
@@ -22,8 +22,8 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         <Layout>
           <SEO title={title.replace("&#58;", ":").replace("&amp;", "&")} description={autoExcerpt} />
 
-            <div className="pbgrid">
-                <div className="pbcontent">
+            <div className="bloggrid">
+                <div className="bloggrid-content">
                 <Post
                     key={id}
                     title={title}
@@ -37,7 +37,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                     nextPost={next}
                 />
                 </div>
-                <div className="pbnav">
+                <div className="bloggrid-nav">
                     <BlogSide />
                 </div>
             </div>

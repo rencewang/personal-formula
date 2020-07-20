@@ -42,6 +42,11 @@ body {
 a {
     text-decoration: none;
     color: $bodyColor;
+    // &:hover {
+    //     color: rgba(242, 242, 242, 0);
+    //     text-shadow: 0 0 5px rgba(0,0,0,0.7);
+    // }
+    // transition: all 0.3s linear;
 }
 button {
     font-family: $bodyFont;

@@ -6,18 +6,18 @@ import SEO from "../components/seo"
 import BlogSide from "../components/blogside"
 import BlogFeatured from "../components/blogfeatured"
 
-import "../styles/projectbloggrid.scss"
+import "../styles/bloggrid.scss"
 
 const BlogPage = () => (
   <Layout>
     <SEO title="Blog" />
 
-      <div className="pbgrid">
-        <div className="pbcontent">
+      <div className="bloggrid">
+        <div className="bloggrid-content">
           <h2>Featured</h2>
           <BlogFeatured />
         </div>
-        <div className="pbnav">
+        <div className="bloggrid-nav">
           <BlogSide />
         </div>
       </div>
