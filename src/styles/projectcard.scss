@@ -76,9 +76,11 @@ img {
       display: flex;
       align-items: center;
       transition: all 0.1s ease;
+      @media only screen and (min-width: 600px) {
         &:hover {
           transform: scale(1.5);
-      }
+        }
+      } 
     }
     @media only screen and (min-width: 992px) {
       flex-basis: 10%;
