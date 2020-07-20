@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import ProjectSide from "../components/projectside"
-import ProjectCard from "../components/projectcard"
+import ProjectFeatured from "../components/projectfeatured"
 
 import "../styles/projectbloggrid.scss"
 
@@ -14,7 +14,7 @@ const ProjectPage = () => (
 
       <div className="pbgrid">
         <div className="pbcontent">
-          <ProjectCard />
+          <ProjectFeatured />
         </div>
         <div className="pbnav">
           <ProjectSide />

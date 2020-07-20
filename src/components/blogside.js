@@ -19,7 +19,8 @@ const ProjectSide = () => {
                             title
                             permalink
                         }
-                    } 
+                        id
+                    }
                 }
             }
         }
@@ -28,16 +29,19 @@ const ProjectSide = () => {
     return (
         <div className="blogcategorylist">
 
-            {data.allMarkdownRemark.category.map(category => (
+            {data.allMarkdownRemark.category.map((category, index) => (
 
-                <div className="category">
+                <div className="category" key={index}>
                     <h2>{category.fieldValue}</h2>
+
                     {category.edges.map(post => (
-                        <h4>
+                        <h4 key={post.node.id}>
                             <Link to={post.node.frontmatter.permalink}>{post.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
                         </h4>
                     ))}
+
                 </div>
+                
             ))}
 
         </div>

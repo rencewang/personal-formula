@@ -1,18 +1,37 @@
 const path = require('path')
+const { get } = require('jquery')
 
 const blogTemplate = path.resolve(`./src/templates/blogPost.js`)
-// const projectTemplate = path.resolve(`./src/templates/projectPost.js`)
+const projectTemplate = path.resolve(`./src/templates/projectPost.js`)
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, getNodes }) => {
     const { createPage } = actions
+    const allNodes = getNodes()
+
     const result = await graphql(`
       query {
-        allMarkdownRemark {
+        projects: allMarkdownRemark (
+          filter: { frontmatter: { type: {eq: "project"} } }
+          sort: { fields: [frontmatter___updated] order: DESC }
+        ) {
           edges {
             node {
               frontmatter {
                 permalink
-                type
+                title
+              }
+            }
+          }
+        }
+        posts: allMarkdownRemark (
+          filter: { frontmatter: { type: {eq: "post"} } }
+          sort: { fields: [frontmatter___updated] order: DESC }
+        ) {
+          edges {
+            node {
+              frontmatter {
+                permalink
+                title
               }
             }
           }
@@ -20,40 +39,27 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     `)
 
-    // const sortedPages = markdownPages.sort((pageA, pageB) => {
-    //     const typeA = getType(pageA.node)
-    //     const typeB = getType(pageB.node)
-  
-    //     return (typeA > typeB) - (typeA < typeB)
-    // })
-
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        // const previous = index === 0 ? null : sortedPages[index - 1].node
-        // const next = index === sortedPages.length - 1 ? null : sortedPages[index + 1].node
-        // const isNextSameType = getType(node) === (next && getType(next))
-        // const isPreviousSameType =
-        //   getType(node) === (previous && getType(previous))
-        
-        if (node.frontmatter.type.toString() === "post") {
-            createPage({
-                path: node.frontmatter.permalink,
-                component: blogTemplate,
-                context: {
-                  // next: isNextSameType ? next : null,
-                  // previous: isPreviousSameType ? previous : null,
-                },
-              })
-        }
-        // if (node.frontmatter.type.toString() === "project") {
-        //     createPage({
-        //         path: node.frontmatter.permalink,
-        //         component: projectTemplate,
-        //         context: {
-        //           // next: isNextSameType ? next : null,
-        //           // previous: isPreviousSameType ? previous : null,
-        //         },
-        //       })
-        // }
+    const posts = result.data.posts.edges
+    posts.forEach(({node}, index) => {
+      createPage({
+        path: node.frontmatter.permalink,
+        component: blogTemplate,
+        context: {
+          next: index === (posts.length - 1) ? null : posts[index + 1].node,
+          previous: index === 0 ? null : posts[index - 1].node,
+        },
+      })
     })
 
+    const projects = result.data.projects.edges
+    projects.forEach(({node}, index) => {
+      createPage({
+        path: node.frontmatter.permalink,
+        component: projectTemplate,
+        context: {
+          next: index === (posts.length - 1) ? null : posts[index + 1].node,
+          previous: index === 0 ? null : posts[index - 1].node,
+        },
+      })
+    })
 }

@@ -20,7 +20,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
 
     return (
         <Layout>
-          <SEO title={title} description={autoExcerpt} />
+          <SEO title={title.replace("&#58;", ":").replace("&amp;", "&")} description={autoExcerpt} />
 
             <div className="pbgrid">
                 <div className="pbcontent">
@@ -33,8 +33,8 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                     html={html}
                     tag={tag}
                     category={category}
-                    // previousPost={previous}
-                    // nextPost={next}
+                    previousPost={previous}
+                    nextPost={next}
                 />
                 </div>
                 <div className="pbnav">
@@ -48,7 +48,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
 export default BlogPostTemplate
 
 export const postQuery = graphql `
-    query PostsQuery ($path: String) {
+    query BlogPostQuery ($path: String) {
         markdownRemark(frontmatter: { permalink: { eq: $path } }) {
             frontmatter {
                 title

@@ -6,6 +6,7 @@
     z-index: 10;
     bottom: -100%;
     width: 95%;
+    max-width: 1700px;
     visibility: hidden;
     overflow: auto;
     background-color: rgba(242, 242, 242, 0.6);
@@ -70,6 +71,7 @@
     display: block;
     position: fixed;
     width: 95%;
+    max-width: 1700px;
     opacity: 1;
     bottom: 0;
     visibility: visible;
