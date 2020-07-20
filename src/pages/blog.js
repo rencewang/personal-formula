@@ -17,7 +17,7 @@ const BlogPage = () => (
           <h2>Featured</h2>
           <BlogFeatured />
         </div>
-        <div className="bloggrid-nav">
+        <div className="bloggrid-nav-home">
           <BlogSide />
         </div>
       </div>

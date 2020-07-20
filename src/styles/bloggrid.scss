@@ -7,6 +7,16 @@
     grid-template-areas: 
         "content" "navigation";
     border-bottom: 2px solid black;
+    @media (max-width: 750px) {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "content" 
+            "navigation";
+        border-bottom: none;
+        max-height: none;
+        overflow-y: auto;
+    }
     
     .bloggrid-content-home,
     .bloggrid-content-post {
@@ -22,15 +32,30 @@
                 font-size: 5rem;
             }
         }
+        @media (max-width: 750px) {
+            height: auto;
+        }
     }
     .bloggrid-content-home {
         overflow-y: auto;
     }
     .bloggrid-content-post {
         overflow-y: hidden;
+        @media (max-width: 750px) {
+            overflow-y: auto;
+        }
     }
-    .bloggrid-nav {
+    .bloggrid-nav-home,
+    .bloggrid-nav-post {
         grid-area: "navigation";
         height: 89vh;
+        @media (max-width: 750px) {
+            height: auto;
+        }
+    }
+    .bloggrid-nav-post {
+        @media (max-width: 750px) {
+            display: none;
+        }
     }
 }

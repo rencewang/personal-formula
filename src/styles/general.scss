@@ -18,6 +18,7 @@ $subtitlefont: "neue-haas-grotesk-text", "aktiv-grotesk", sans-serif;
     &::before, &::after {
       box-sizing: border-box;
     }
+    // overflow-x: hidden;
 }
 
 button {

@@ -37,7 +37,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
                     nextPost={next}
                 />
                 </div>
-                <div className="bloggrid-nav">
+                <div className="bloggrid-nav-post">
                     <BlogSide />
                 </div>
             </div>

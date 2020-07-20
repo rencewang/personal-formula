@@ -24,7 +24,7 @@
         }
     }
     .projectside-post-nav {
-        max-height: 45%;
+        max-height: 40%;
         @media (max-width: 1200px) {
             max-height: 35%;
         }
@@ -105,6 +105,12 @@
 
 .blogcategorylist {
     border-left: 2px solid black;
+    @media (max-width: 750px) {
+        border-left: none;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        overflow-y: visible;
+    }
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -121,6 +127,9 @@
             @media (min-width: 992px) {
                 font-size: 3rem;
             }
+            @media (max-width: 750px) {
+                padding: 5px 0;
+            }
             border-bottom: 2px solid black;  
         }
         > h4 {
@@ -131,6 +140,9 @@
             font-weight: 400;
             @media (min-width: 992px) {
                 font-size: 1.5rem;
+            }
+            @media (max-width: 750px) {
+                padding: 5px 0;
             }
         }
     }
