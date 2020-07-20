@@ -3,7 +3,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 
 import "../styles/projectblogside.scss"
 
-const ProjectSide = () => {
+const BlogSide = () => {
 
     const data = useStaticQuery(graphql`
     query BlogNavigationQuery {
@@ -48,4 +48,4 @@ const ProjectSide = () => {
     )
 }
 
-export default ProjectSide
+export default BlogSide

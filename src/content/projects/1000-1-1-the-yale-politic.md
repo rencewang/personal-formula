@@ -1,13 +1,16 @@
 ---
-title: Hellow&#58; That's someting for later
-updated: 2020-08-03 18:53
+title: The Yale Politic&#58; Presidential Hopefuls
+updated: 2019-11-25 00:00
 published: true
 category: Project
-tag: [Fun]
-permalink: "/project/proj 4"
+tag: [Featured]
+permalink: "/project/hopefuls"
 type: project
-timeframe: "Jul. 2020 - Aug. 2020"
+timeframe: "Nov. 2019"
+coverimage: "https://source.unsplash.com/featured/?beach"
 ---
+
+
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
