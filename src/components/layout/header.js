@@ -38,9 +38,9 @@ const Header = () => {
         </div>
         &nbsp;
         <div>
-          <Link to="/">
+          <a href="https://lawrencewang.myportfolio.com">
             Art
-          </Link>
+          </a>
         </div>
       </div>
 
