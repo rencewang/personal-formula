@@ -1,5 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
+import Img from "gatsby-image"
+
 import { Icon } from "@iconify/react"
 import leftArrow from "@iconify/icons-ion/ios-arrow-thin-left"
 import rightArrow from "@iconify/icons-ion/ios-arrow-thin-right"
@@ -50,7 +52,11 @@ const ProjectCard = () => {
                         updated(formatString: "MMMM DD[,] YYYY")
                         description
                         coverimage {
-                            absolutePath
+                            childImageSharp {
+                                fluid(maxWidth: 1500) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
                         }
                     }
                     id
@@ -61,7 +67,7 @@ const ProjectCard = () => {
     }`)
 
     return (
-        <main className="projectpost">
+        <main className="projectfeatured">
             <ul className="slider">
                 
                 {data.allMarkdownRemark.edges.map((featuredProject, index) => {
@@ -69,7 +75,8 @@ const ProjectCard = () => {
                         return (
                             <li className="project-slideritem active" key={featuredProject.node.id}>
                                 <div className="imageholder">
-                                    <img src={featuredProject.node.frontmatter.coverimage.absolutePath} />
+                                    {/* <img src={featuredProject.node.frontmatter.coverimage.absolutePath} /> */}
+                                    <Img fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} style={{maxHeight: '100%'}}/>
                                 </div>
                                 <div className="intro">
                                     <Link to={featuredProject.node.frontmatter.permalink}>
@@ -85,7 +92,8 @@ const ProjectCard = () => {
                         return (
                             <li className="project-slideritem" key={featuredProject.node.id}>
                                 <div className="imageholder">
-                                    <img src={featuredProject.node.frontmatter.coverimage.absolutePath} />
+                                    {/* <img src={featuredProject.node.frontmatter.coverimage.absolutePath} /> */}
+                                    <Img fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} style={{maxHeight: '100%'}}/>
                                 </div>
                                 <div className="intro">
                                     <Link to={featuredProject.node.frontmatter.permalink}>

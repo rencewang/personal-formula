@@ -33,6 +33,11 @@
             h1, h2, h3 {
                 font-style: italic;
             }
+            img {
+                width: 100%;
+                object-fit: cover;
+                padding-right: 5px;
+            }
         }
     }
     .postnavigation {
@@ -40,6 +45,7 @@
         flex-basis: 20px;
         z-index: 100;
         background-color: rgb(242, 242, 242);
+        margin-top: auto;
         border-top: 2px solid black;
         padding: 2px 0;
         display: flex;
