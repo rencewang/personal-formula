@@ -43,7 +43,7 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
     
                 <div className="projectside-post-context">
                     <h2>Next</h2>
-                        <Link to={nextPost.frontmatter.permalink}>{nextPost.frontmatter.title}</Link>
+                    <div><Link to={nextPost.frontmatter.permalink}>{nextPost.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link></div>
                 </div>
             </div>
         )
@@ -67,7 +67,7 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
     
                 <div className="projectside-post-context">
                     <h2>Previous</h2>
-                        <Link to={previousPost.frontmatter.permalink}>{previousPost.frontmatter.title}</Link>
+                    <div><Link to={previousPost.frontmatter.permalink}>{previousPost.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link></div>    
                 </div>
             </div>
         )
@@ -91,9 +91,9 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
     
                 <div className="projectside-post-context">
                     <h2>Previous</h2>
-                        <Link to={previousPost.frontmatter.permalink}>{previousPost.frontmatter.title}</Link>
+                    <div><Link to={previousPost.frontmatter.permalink}>{previousPost.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link></div>   
                     <h2>Next</h2>
-                        <Link to={nextPost.frontmatter.permalink}>{nextPost.frontmatter.title}</Link>
+                    <div><Link to={nextPost.frontmatter.permalink}>{nextPost.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link></div>   
                 </div>
             </div>
         )

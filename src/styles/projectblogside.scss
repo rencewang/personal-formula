@@ -1,5 +1,10 @@
 .projectside-post {
     border-left: 2px solid black;
+    @media (max-width: 900px) {
+        border-left: none;
+        display: flex;
+        flex-direction: column;
+    }
     height: 100%;
     > h4 {
         margin: 0; padding: 0;
@@ -14,9 +19,20 @@
         @media (min-width: 992px) {
             font-size: 2.5rem;
         }
+        @media (max-width: 900px) {
+            padding: 5px 0;
+        }
     }
     .projectside-post-nav {
         max-height: 45%;
+        @media (max-width: 1200px) {
+            max-height: 35%;
+        }
+        @media (max-width: 900px) {
+            max-height: none;
+            overflow-y: auto;
+            border-bottom: none;
+        }
         overflow-y: scroll;
         border-bottom: 2px solid black;
         > h4 {
@@ -25,6 +41,12 @@
             width: 100%;
             font-size: 1.4rem;
             font-weight: 400;
+            @media (max-width: 900px) {
+                padding: 5px 0;
+            }
+        }
+        @media (max-width: 900px) {
+            order: 3;
         }
     }
     .projectside-post-info {
@@ -34,6 +56,11 @@
         grid-template-areas: 
             "time" "timeinput"
             "tools" "toolsinput";
+        @media (max-width: 900px) {
+            grid-template-areas: 
+                "time" "tools"
+                "timeinput" "toolsinput";
+        }
         border-bottom: 2px solid black;
         .time {grid-area: "time"; word-break: break-all;}
         .timeinput {grid-area: "timeinput";}
@@ -42,6 +69,9 @@
         > h5, h6 {
             margin: 0; 
             padding: 2px 5px;
+            @media (max-width: 900px) {
+                padding: 2px 0;
+            }
             width: 100%;
             font-size: 1.2rem;
             font-weight: 400;
@@ -49,13 +79,25 @@
         > h5 {
             font-size: 1.4rem;
         }
+        @media (max-width: 900px) {
+            order: 1;
+        }
     }
     .projectside-post-context {
-        > a {
-            padding: 0 5px;
+        width: 100%;
+        > div {
+            padding: 5px;
+            width: 100%;
             &:not(:last-child) {
                 border-bottom: 2px solid black;
             }
+            @media (max-width: 900px) {
+                padding: 5px 0 5px 0;
+                border-bottom: 2px solid black;
+            }
+        }
+        @media (max-width: 900px) {
+            order: 2;
         }
     }
 
