@@ -7,7 +7,7 @@ import BlogFeatured from "../components/blogfeatured"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="" />
+    {/* <SEO title="" /> */}
     <ProjectCard />
     <div style={{margin: "40px auto"}}>
       <BlogFeatured />
