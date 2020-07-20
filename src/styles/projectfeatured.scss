@@ -52,18 +52,32 @@ img {
   position: relative;
   display: flex;
   justify-content: flex-end;
+  .project-controls-grid {
+    display: grid;
+    width: 50%;
+    @media (min-width: 992px) {
+      width: 30%;
+    }
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+    padding-right: 2px;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2px;
+    grid-area: "prevbutton" "nextbutton";
+    border: 2px solid black;
+    background-color: black;
+  }
   button {
     cursor: pointer;
     outline: none;
     border: 0;
   }
   .previous {
-    border: 2px solid black;
+    grid-area: "prevbutton";
   }
   .next {
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
+    grid-area: "nextbutton";
   }
   .previous, 
   .next {

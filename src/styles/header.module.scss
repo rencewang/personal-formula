@@ -52,6 +52,7 @@ footer {
         justify-content: space-between;
         span:first-child {
             text-align: left;
+            font-feature-settings: "tnum";
             @media only screen and (max-width: 600px) {
                 display: none;
             }

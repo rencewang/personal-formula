@@ -84,14 +84,15 @@ const ProjectCard = () => {
             </ul>
 
             <div className="project-controls">
-                <button className="previous" onClick={showPreviousItem}>
-                    <span><i><Icon icon={leftArrow} /></i></span>
-                </button>
-                <button className="next" onClick={showNextItem}>
-                    <span><i><Icon icon={rightArrow} /></i></span>
-                </button>
+                <div className="project-controls-grid">
+                    <button className="previous" onClick={showPreviousItem}>
+                        <span><i><Icon icon={leftArrow} /></i></span>
+                    </button>
+                    <button className="next" onClick={showNextItem}>
+                        <span><i><Icon icon={rightArrow} /></i></span>
+                    </button>
+                </div>
             </div>
-
         </main>
     )
 }
