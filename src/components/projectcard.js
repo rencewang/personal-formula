@@ -85,10 +85,10 @@ const ProjectCard = () => {
 
             <div className="project-controls">
                 <button className="previous" onClick={showPreviousItem}>
-                    <i><Icon icon={leftArrow} /></i>
+                    <span><i><Icon icon={leftArrow} /></i></span>
                 </button>
                 <button className="next" onClick={showNextItem}>
-                    <i><Icon icon={rightArrow} /></i>
+                    <span><i><Icon icon={rightArrow} /></i></span>
                 </button>
             </div>
 

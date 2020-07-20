@@ -30,7 +30,7 @@ const BlogFeatured = () => {
         <main className="blogfeatured">
 
             {data.allMarkdownRemark.edges.map(featuredPost => (
-                <div className="accordionpiece">
+                <div className="accordionpiece" key={`one-of-${featuredPost.node.id}`}>
                     <input type="checkbox" id={featuredPost.node.id} name="accordion" />
                     <label htmlFor={featuredPost.node.id}>{featuredPost.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</label>
                     <div>
