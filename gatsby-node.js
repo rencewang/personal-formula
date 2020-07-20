@@ -57,8 +57,8 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
         path: node.frontmatter.permalink,
         component: projectTemplate,
         context: {
-          next: index === (posts.length - 1) ? null : posts[index + 1].node,
-          previous: index === 0 ? null : posts[index - 1].node,
+          next: index === (projects.length - 1) ? null : projects[index + 1].node,
+          previous: index === 0 ? null : projects[index - 1].node,
         },
       })
     })

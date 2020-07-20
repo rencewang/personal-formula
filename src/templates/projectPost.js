@@ -1,5 +1,4 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import SEO from '../components/seo'
@@ -11,7 +10,7 @@ import "../styles/projectgrid.scss"
 
 const ProjectPostTemplate = ({ data, pageContext }) => {
     const {
-        frontmatter: { title, updated, permalink, tag, category },
+        frontmatter: { title, updated, permalink, timeframe, tools, coverimage },
         excerpt: autoExcerpt,
         id,
         html,
@@ -24,21 +23,17 @@ const ProjectPostTemplate = ({ data, pageContext }) => {
 
             <div className="projectgrid">
                 <div className="projectgrid-content">
-                <Post
-                    key={id}
-                    title={title}
-                    date={updated}
-                    path={permalink}
-                    // coverImage={coverImage}
-                    html={html}
-                    tag={tag}
-                    category={category}
-                    previousPost={previous}
-                    nextPost={next}
-                />
+                    <Post
+                        key={id}
+                        title={title}
+                        date={updated}
+                        path={permalink}
+                        coverimage={coverimage.absolutePath}
+                        html={html}
+                    />
                 </div>
                 <div className="projectgrid-nav">
-                    <ProjectSide />
+                    <ProjectSide timeframe={timeframe} tools={tools} previousPost={previous} nextPost={next}/>
                 </div>
             </div>
         </Layout>
@@ -53,9 +48,12 @@ export const postQuery = graphql `
             frontmatter {
                 title
                 updated(formatString: "MMMM DD[,] YYYY")
-                tag
-                category
                 permalink
+                timeframe
+                tools
+                coverimage {
+                    absolutePath
+                }
             }
             id
             html

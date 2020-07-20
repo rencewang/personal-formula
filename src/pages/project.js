@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import ProjectSide from "../components/projectside"
 import ProjectFeatured from "../components/projectfeatured"
 
 import "../styles/projectgrid.scss"

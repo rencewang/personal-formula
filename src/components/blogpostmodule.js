@@ -19,15 +19,19 @@ const Post = ({
     if (previousPost==null) {
         return (
             <article className={style.post}>
-                <div className={style.postheading}>
-                    <div className={style.posttitle}>{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
-                    <div className={style.postdate}>{date}</div>
-                    <div className={style.postcat}>{category}</div>
+                <div className={style.postarea}>
+                    <div className={style.postheading}>
+                        <div className={style.posttitle}>{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
+                        <span className={style.postdate}>{date}</span>
+                        <span> in </span>
+                        <span className={style.postcat}>{category}</span>
+                    </div>
+
+                    <div className={style.postcontent}>
+                        <div dangerouslySetInnerHTML={{ __html: html }} />
+                    </div>
                 </div>
 
-                <div className={style.postcontent}>
-                    <div dangerouslySetInnerHTML={{ __html: html }} />
-                </div>
                 <div className={style.postnavigation}>
                     <div></div>
                     <Link to={nextPost.frontmatter.permalink}>{nextPost.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}  &raquo;</Link>
@@ -37,15 +41,18 @@ const Post = ({
     } else if (nextPost==null) {
         return (
             <article className={style.post}>
-                <div className={style.postheading}>
-                    <div className={style.posttitle}>{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
-                    <div className={style.postdate}>{date}</div>
-                    <div className={style.postcat}>{category}</div>
+                <div className={style.postarea}>
+                    <div className={style.postheading}>
+                        <div className={style.posttitle}>{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
+                        <span className={style.postdate}>{date}</span>
+                        <span> in </span>
+                        <span className={style.postcat}>{category}</span>
+                    </div>
+                    <div className={style.postcontent}>
+                        <div dangerouslySetInnerHTML={{ __html: html }} />
+                    </div>
                 </div>
-
-                <div className={style.postcontent}>
-                    <div dangerouslySetInnerHTML={{ __html: html }} />
-                </div>
+                
                 <div className={style.postnavigation}>
                     <Link to={previousPost.frontmatter.permalink}>&laquo; {previousPost.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
                     <div></div>
@@ -55,15 +62,18 @@ const Post = ({
     } else {
         return (
             <article className={style.post}>
-                <div className={style.postheading}>
-                    <div className={style.posttitle}>{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
-                    <div className={style.postdate}>{date}</div>
-                    <div className={style.postcat}>{category}</div>
+                <div className={style.postarea}>
+                    <div className={style.postheading}>
+                        <div className={style.posttitle}>{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
+                        <span className={style.postdate}>{date}</span>
+                        <span> in </span>
+                        <span className={style.postcat}>{category}</span>
+                    </div>
+                    <div className={style.postcontent}>
+                        <div dangerouslySetInnerHTML={{ __html: html }} />
+                    </div>
                 </div>
-    
-                <div className={style.postcontent}>
-                    <div dangerouslySetInnerHTML={{ __html: html }} />
-                </div>
+            
                 <div className={style.postnavigation}>
                     <Link to={previousPost.frontmatter.permalink}>&laquo; {previousPost.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
                     <Link to={nextPost.frontmatter.permalink}>{nextPost.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}  &raquo;</Link>

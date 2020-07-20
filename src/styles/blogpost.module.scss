@@ -1,16 +1,52 @@
+@import "./general.scss";
+
 .post {
-    .postheading {
-        .posttitle {
-
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    flex-direction: column;
+    .postarea {
+        order: 1;
+        flex-basis: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        .postheading {
+            .posttitle {
+                font-family: $listTitleFont;
+                font-size: 2rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                line-height: 1.1;
+                @media (min-width: 992px) {
+                    font-size: 3rem;
+                    padding: 2rem 2rem 0 0.3rem;
+                }
+            }
+            font-weight: bold;
+            border-bottom: 2px solid black;
         }
-        .postdate {
-
-        }
-        .postcat {
-
+        .postcontent {
+            h1, h2, h3, h4, h5, h6 {
+                margin: 10px 0;
+            }
+            h1, h2, h3 {
+                font-style: italic;
+            }
         }
     }
-    .postcontent {
-        
+    .postnavigation {
+        order: 2;
+        flex-basis: 20px;
+        z-index: 100;
+        background-color: rgb(242, 242, 242);
+        border-top: 2px solid black;
+        padding: 2px 0;
+        display: flex;
+        justify-content: space-between;
+        > :last-child {
+            text-align: right;
+            padding-right: 3px;
+        }
     }
 }

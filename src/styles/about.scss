@@ -3,7 +3,7 @@
 .about {
     display: block;
     position: fixed;
-    z-index: 10;
+    z-index: 999;
     bottom: -100%;
     width: 95%;
     max-width: 1700px;
@@ -76,7 +76,7 @@
     bottom: 0;
     visibility: visible;
     overflow: auto;
-    z-index: 10;
+    z-index: 999;
     -webkit-transform: scale(1.0);
     -moz-transform: scale(1.0);
     -ms-transform: scale(1.0);

@@ -23,7 +23,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
           <SEO title={title.replace("&#58;", ":").replace("&amp;", "&")} description={autoExcerpt} />
 
             <div className="bloggrid">
-                <div className="bloggrid-content">
+                <div className="bloggrid-content-post">
                 <Post
                     key={id}
                     title={title}

@@ -7,7 +7,9 @@ tag: [Featured]
 permalink: "/project/hopefuls"
 type: project
 timeframe: "Nov. 2019"
-coverimage: "https://source.unsplash.com/featured/?beach"
+tools: "Figma"
+coverimage: ../../images/projectimages/gatsby-astronaut.png
+description: "As a part of the Tech Team, I helped develop this minisite showcasing The Yale Politic's features &amp; interviews conducted over the past years about the presidential candidates for the 2020 election."
 ---
 
 

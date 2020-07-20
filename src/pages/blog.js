@@ -13,7 +13,7 @@ const BlogPage = () => (
     <SEO title="Blog" />
 
       <div className="bloggrid">
-        <div className="bloggrid-content">
+        <div className="bloggrid-content-home">
           <h2>Featured</h2>
           <BlogFeatured />
         </div>
