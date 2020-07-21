@@ -8,11 +8,12 @@
     flex-direction: column;
     @media (max-width: 750px) {
         height: auto;
+        overflow-y: auto;
     }
     .postarea {
         order: 1;
         flex-basis: auto;
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
         @media (max-width: 750px) {
             overflow-y: visible;
