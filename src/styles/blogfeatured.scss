@@ -35,6 +35,9 @@ input {
           font-size: 3rem;
           padding: 2rem 2rem 0 1rem;
         }
+        @media (min-width: 700px) {
+            padding-left: 5px;
+        }
 	}
 	+ label:after,
 	+ label:before {
