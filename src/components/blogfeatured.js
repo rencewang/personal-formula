@@ -18,6 +18,7 @@ const BlogFeatured = () => {
                         permalink
                         updated(formatString: "MMMM DD[,] YYYY")
                         category
+                        description
                     }
                     id
                     excerpt(pruneLength: 400)
@@ -34,7 +35,7 @@ const BlogFeatured = () => {
                     <input type="checkbox" id={featuredPost.node.id} name="accordion" />
                     <label htmlFor={featuredPost.node.id}>{featuredPost.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</label>
                     <div>
-                        <p>{featuredPost.node.excerpt}</p>
+                        <p>{featuredPost.node.frontmatter.description}</p>
                         <div className="readmore-links">
                             <div>{featuredPost.node.frontmatter.updated}</div>
                             <Link to={featuredPost.node.frontmatter.permalink}>CONTINUE READING</Link>

@@ -33,9 +33,9 @@ input {
         transition: all 0.3s linear;
         @media (min-width: 992px) {
           font-size: 3rem;
-          padding: 2rem 2rem 0 1rem;
+          padding: 2rem 2rem 0 0.7rem;
         }
-        @media (min-width: 700px) {
+        @media (max-width: 700px) {
             padding-left: 5px;
         }
 	}

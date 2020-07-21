@@ -71,7 +71,7 @@ const ProjectCard = () => {
             <ul className="slider">
                 
                 {data.allMarkdownRemark.edges.map((featuredProject, index) => {
-                    if (index==0) {
+                    if (index===0) {
                         return (
                             <li className="project-slideritem active" key={featuredProject.node.id}>
                                 <div className="imageholder">
