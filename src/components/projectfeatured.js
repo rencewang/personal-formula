@@ -78,12 +78,22 @@ const ProjectCard = () => {
                                     {/* <img src={featuredProject.node.frontmatter.coverimage.absolutePath} /> */}
                                     <Img fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} style={{maxHeight: '100%'}}/>
                                 </div>
+                                <div className="project-controls">
+                                    <div className="project-controls-grid">
+                                        <button className="previous" onClick={showPreviousItem}>
+                                            <span><i><Icon icon={leftArrow} /></i></span>
+                                        </button>
+                                        <button className="next" onClick={showNextItem}>
+                                            <span><i><Icon icon={rightArrow} /></i></span>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div className="intro">
                                     <Link to={featuredProject.node.frontmatter.permalink}>
                                         <h1 className="title">{featuredProject.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</h1>
                                     </Link>
-                                    <div>
-                                        <p className="description">{featuredProject.node.frontmatter.description}</p>
+                                    <div className="description">
+                                        {featuredProject.node.frontmatter.description}
                                     </div>
                                 </div>
                             </li>
@@ -95,12 +105,22 @@ const ProjectCard = () => {
                                     {/* <img src={featuredProject.node.frontmatter.coverimage.absolutePath} /> */}
                                     <Img fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} style={{maxHeight: '100%'}}/>
                                 </div>
+                                <div className="project-controls">
+                                    <div className="project-controls-grid">
+                                        <button className="previous" onClick={showPreviousItem}>
+                                            <span><i><Icon icon={leftArrow} /></i></span>
+                                        </button>
+                                        <button className="next" onClick={showNextItem}>
+                                            <span><i><Icon icon={rightArrow} /></i></span>
+                                        </button>
+                                    </div>
+                                </div>
                                 <div className="intro">
                                     <Link to={featuredProject.node.frontmatter.permalink}>
                                         <h1 className="title">{featuredProject.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</h1>
                                     </Link>
-                                    <div>
-                                        <p className="description">{featuredProject.node.frontmatter.description}</p>
+                                    <div className="description">
+                                        {featuredProject.node.frontmatter.description}
                                     </div>
                                 </div>
                             </li>
@@ -110,16 +130,8 @@ const ProjectCard = () => {
 
             </ul>
 
-            <div className="project-controls">
-                <div className="project-controls-grid">
-                    <button className="previous" onClick={showPreviousItem}>
-                        <span><i><Icon icon={leftArrow} /></i></span>
-                    </button>
-                    <button className="next" onClick={showNextItem}>
-                        <span><i><Icon icon={rightArrow} /></i></span>
-                    </button>
-                </div>
-            </div>
+
+
         </main>
     )
 }

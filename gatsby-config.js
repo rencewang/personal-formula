@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Lawrence Wang`,
-    description: `Personal site for Lawrence Wang, currently a student at Yale University, aspiring to become a designer and developer for the world wide web.`,
+    description: `Personal site for Lawrence Wang, currently a student at Yale University, intereted in art, economics, and computer science, aspiring to become a designer and developer for the world wide web.`,
     author: `Lawrence Wang`,
   },
   plugins: [

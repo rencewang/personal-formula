@@ -12,7 +12,7 @@ const ProjectPage = ({data}) => (
     <SEO title="Project" />
 
       <div className="projectgrid">
-        <div className="projectgrid-content" style={{paddingRight: 10}}>
+        <div className="projectgrid-content-home">
           <ProjectFeatured />
         </div>
         <div className="projectgrid-nav">
