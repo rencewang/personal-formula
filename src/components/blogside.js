@@ -8,7 +8,7 @@ const BlogSide = () => {
     const data = useStaticQuery(graphql`
     query BlogNavigationQuery {
         allMarkdownRemark (
-            filter: { frontmatter: { type: {eq: "post"} } }
+            filter: { frontmatter: { type: {eq: "post"}, published: {eq: true} } }
             sort: { fields: [frontmatter___updated] order: DESC }
         ) {
             category:group(field: frontmatter___category) {

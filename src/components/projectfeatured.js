@@ -74,9 +74,13 @@ const ProjectCard = () => {
                     if (index===0) {
                         return (
                             <li className="project-slideritem active" key={featuredProject.node.id}>
+                            <div className="projectfeatured-mobileflex">
                                 <div className="imageholder">
                                     {/* <img src={featuredProject.node.frontmatter.coverimage.absolutePath} /> */}
-                                    <Img fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} style={{maxHeight: '100%'}}/>
+                                    <Img 
+                                        fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} 
+                                        style={{maxHeight: '100%'}}
+                                    />
                                 </div>
                                 <div className="project-controls">
                                     <div className="project-controls-grid">
@@ -96,14 +100,19 @@ const ProjectCard = () => {
                                         {featuredProject.node.frontmatter.description}
                                     </div>
                                 </div>
+                            </div>
                             </li>
                         )
                     } else {
                         return (
                             <li className="project-slideritem" key={featuredProject.node.id}>
+                            <div className="projectfeatured-mobileflex">
                                 <div className="imageholder">
                                     {/* <img src={featuredProject.node.frontmatter.coverimage.absolutePath} /> */}
-                                    <Img fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} style={{maxHeight: '100%'}}/>
+                                    <Img 
+                                        fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} 
+                                        style={{maxHeight: '100%'}}
+                                    />
                                 </div>
                                 <div className="project-controls">
                                     <div className="project-controls-grid">
@@ -123,6 +132,7 @@ const ProjectCard = () => {
                                         {featuredProject.node.frontmatter.description}
                                     </div>
                                 </div>
+                            </div>
                             </li>
                         )
                     }

@@ -8,7 +8,7 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
     const data = useStaticQuery(graphql`
     query ProjectNavigationQuery {
         allMarkdownRemark (
-            filter: { frontmatter: { type: {eq: "project"} } }
+            filter: { frontmatter: { type: {eq: "project"}, published: {eq: true} } }
             sort: { fields: [frontmatter___updated] order: DESC }
         ) {
             edges {

@@ -41,7 +41,7 @@ export default ProjectPage
 export const ProjectPageQuery = graphql`
   query ProjectPageQuery {
       allMarkdownRemark (
-          filter: { frontmatter: { type: {eq: "project"} } }
+          filter: { frontmatter: { type: {eq: "project"}, published: {eq: true} } }
           sort: { fields: [frontmatter___updated] order: DESC }
       ) {
           edges {
