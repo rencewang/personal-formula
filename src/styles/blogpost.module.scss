@@ -9,6 +9,7 @@
     @media (max-width: 750px) {
         height: auto;
         overflow-y: auto;
+        display: block;
     }
     .postarea {
         order: 1;
@@ -16,7 +17,7 @@
         overflow-y: auto;
         overflow-x: hidden;
         @media (max-width: 750px) {
-            overflow-y: visible;
+            flex-basis: none;
         }
         .postheading {
             .posttitle {
@@ -64,6 +65,8 @@
         }
         @media (max-width: 750px) {
             border-bottom: 2px solid black;
+            flex-basis: none;
+            margin-top: 5px;
         }
     }
 }
