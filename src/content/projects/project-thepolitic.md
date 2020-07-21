@@ -9,7 +9,7 @@ type: project
 timeframe: "Nov. 2019"
 tools: "Figma"
 coverimage: ../../images/projectimages/hopefulshome.png
-description: "As a part of the Tech Team, I helped develop this minisite showcasing The Yale Politic's features &amp; interviews conducted over the past years about the presidential candidates for the 2020 election."
+description: "As a part of The Yale Politic's Tech Team, I helped develop this minisite showcasing The Yale Politic's features and interviews conducted over the past years about the presidential candidates for the 2020 election."
 ---
 
 
