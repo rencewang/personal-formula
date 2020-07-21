@@ -17,12 +17,18 @@ const ProjectPage = ({data}) => (
         </div>
         <div className="projectgrid-nav">
           <div className="projectpage-nav">
-            <h2>Projects</h2>
+            <h2>Case Studies</h2>
             {data.allMarkdownRemark.edges.map((project, index) => (
               <h4 key={index}>
                 <Link to={project.node.frontmatter.permalink}>{project.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
               </h4>
             ))}
+            <h2>Projects</h2>
+              <h4><a href="/">What now</a></h4>
+              <h4><a href="/">Project 2</a></h4>
+            <h2>For Fun</h2>
+              <h4><a href="https://thoughts.rencewang.com/">Thoughts</a></h4>
+              <h4><a href="https://www.rencewang.com/project/inmydefense">In My Head</a></h4>
           </div>
         </div>
       </div>

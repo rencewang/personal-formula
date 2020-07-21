@@ -33,7 +33,7 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
                 </div>
     
                 <div className="projectside-post-nav">
-                    <h2>All Projects</h2>
+                    <h2>All Case Studies</h2>
                     {data.allMarkdownRemark.edges.map((project, index) => (
                         <h4 key={index}>
                             <Link to={project.node.frontmatter.permalink}>{project.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
@@ -57,7 +57,7 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
                 </div>
     
                 <div className="projectside-post-nav">
-                    <h2>All Projects</h2>
+                    <h2>All Case Studies</h2>
                     {data.allMarkdownRemark.edges.map((project, index) => (
                         <h4 key={index}>
                             <Link to={project.node.frontmatter.permalink}>{project.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
@@ -81,7 +81,7 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
                 </div>
     
                 <div className="projectside-post-nav">
-                    <h2>All Projects</h2>
+                    <h2>All Case Studies</h2>
                     {data.allMarkdownRemark.edges.map((project, index) => (
                         <h4 key={index}>
                             <Link to={project.node.frontmatter.permalink}>{project.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>

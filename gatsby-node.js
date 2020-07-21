@@ -11,7 +11,7 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
     const result = await graphql(`
       query {
         projects: allMarkdownRemark (
-          filter: { frontmatter: { type: {eq: "project"} } }
+          filter: { frontmatter: { type: {eq: "project"}, published: {eq: true} } }
           sort: { fields: [frontmatter___updated] order: DESC }
         ) {
           edges {
@@ -24,7 +24,7 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
           }
         }
         posts: allMarkdownRemark (
-          filter: { frontmatter: { type: {eq: "post"} } }
+          filter: { frontmatter: { type: {eq: "post"}, published: {eq: true} } }
           sort: { fields: [frontmatter___updated] order: DESC }
         ) {
           edges {

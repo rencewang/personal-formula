@@ -33,7 +33,7 @@
             overflow-y: auto;
             border-bottom: none;
         }
-        overflow-y: scroll;
+        overflow-y: auto;
         border-bottom: 2px solid black;
         > h4 {
             margin: 0; 
@@ -88,6 +88,7 @@
         > div {
             padding: 5px;
             width: 100%;
+            font-size: 1.4rem;
             &:not(:last-child) {
                 border-bottom: 2px solid black;
             }

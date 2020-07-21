@@ -27,26 +27,20 @@
       font-size: 3rem;
       padding: 1.5rem 0 0 1rem;
     }
-  }
-}
-
-.descriptionbutton-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 5px;
-  @media (max-width: 700px) {
-    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 0.5s 0.2s ease forwards;
   }
 }
 
 .description {
   position: relative;
+  width: 100%;
   font-size: 1rem;
   @media (min-width: 992px) {
     font-size: 1.5rem;
   }
-  width: 100%;
+  opacity: 0;
+  animation: fadeIn 0.6s 0.3s ease forwards;
 }
 
 .slider {
@@ -115,5 +109,14 @@
     @media only screen and (min-width: 992px) {
       flex-basis: 10%;
     }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
