@@ -29,6 +29,11 @@
     opacity: 0;
     animation: fadeIn 0.5s 0.2s ease forwards;
   }
+  @media (hover: hover) {
+    a:hover {
+        text-shadow: 0 0 5px rgba(0,0,0,0.9);
+    }
+  }
 }
 
 .description {

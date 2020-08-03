@@ -39,7 +39,9 @@ const Tracklist = () => {
     return (
         <div id="playlist-container">
             {tracks.map(item => (
-                <a href={item.track.external_urls.spotify}>{item.track.name}</a>
+                <div className="track">
+                    <a href={item.track.external_urls.spotify}>{item.track.name}</a>
+                </div>
             ))}
         </div>
     )
