@@ -70,16 +70,32 @@ blockquote {
     padding: 0 10px
 }
 
-.container {
-    width: 95%;
-    max-width: 1700px;
-    min-height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    .content {
-        width: 100%;
-        margin-top: 40px;
+.overall {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    @media only screen and (max-width: 650px) {
+        height: 100%;
     }
 }
 
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    height: 100%;
+    width: 95%;
+    max-width: 1700px;
+    .content {
+        height: 100%;
+        flex: 1 1 auto;
+        position: relative;
+        overflow-y: auto;
+        @media only screen and (max-width: 650px) {
+          margin-top: 40px;
+        }
+    }
+}

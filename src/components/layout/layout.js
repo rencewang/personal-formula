@@ -7,22 +7,24 @@ import AboutBlock from "./aboutblock"
 
 import "../../styles/general.scss"
 
-const Layout = ({ children }) => {
+const LayoutH = ({ children }) => {
 
   return (
-    <div className="container">
-      <Header />
-      <div className="content">
-        {children}
+    <div className="overall">
+      <div className="container">
+        <Header />
+        <div className="content">
+            {children}
+        </div>
+        <Footer />
+        <AboutBlock />
       </div>
-      <Footer />
-      <AboutBlock />
     </div>
   )
 }
 
-Layout.propTypes = {
+LayoutH.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default LayoutH

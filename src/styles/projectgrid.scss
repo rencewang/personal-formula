@@ -14,7 +14,6 @@
     }
     grid-template-areas: 
         "content" "navigation";
-    border-bottom: 2px solid black;
     .projectgrid-content-home,
     .projectgrid-content {
         grid-area: "content";
