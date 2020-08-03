@@ -40,29 +40,12 @@ header {
 }
 
 footer {
-    // border-top: 2px solid black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    margin-top: auto;
-    padding: 5px 0;
-    > div {
-        border-bottom: 2px solid black;
-        margin: 0 auto 5px auto;
-        padding-bottom: 5px;
-        display: flex;
-        justify-content: space-between;
-        span:first-child {
-            text-align: left;
-            font-feature-settings: "tnum";
-            @media only screen and (max-width: 600px) {
-                display: none;
-            }
-        }
-        span:last-child {
-            text-align: right;
-            // text-transform: capitalize;
-            @media only screen and (max-width: 600px) {
-                text-align: left;
-            }
-        }
-    }
+    font-size: 15px;
+    margin: 0;
+    padding: 2px 0 5px 0;
+    border-top: 2px solid black;
 }
