@@ -4,6 +4,16 @@ const { get } = require('jquery')
 const blogTemplate = path.resolve(`./src/templates/blogPost.js`)
 const projectTemplate = path.resolve(`./src/templates/projectPost.js`)
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    node: {
+      fs: "empty",
+      tls: "empty",
+      net: "empty",
+    },
+  })
+}
+
 exports.createPages = async ({ graphql, actions, getNodes }) => {
     const { createPage } = actions
     const allNodes = getNodes()
