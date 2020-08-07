@@ -38,7 +38,7 @@ const Header = () => {
         </div>
         &nbsp;
         <div>
-          <a href="https://lawrencewang.myportfolio.com">
+          <a href="/digital">
             Art
           </a>
         </div>
