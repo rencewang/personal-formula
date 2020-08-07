@@ -1,5 +1,7 @@
 const path = require('path')
 const { get } = require('jquery')
+const fs = require("fs")
+const yaml = require("js-yaml")
 
 const blogTemplate = path.resolve(`./src/templates/blogPost.js`)
 const projectTemplate = path.resolve(`./src/templates/projectPost.js`)
@@ -69,6 +71,17 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
         context: {
           next: index === (projects.length - 1) ? null : projects[index + 1].node,
           previous: index === 0 ? null : projects[index - 1].node,
+        },
+      })
+    })
+
+    const art = yaml.safeLoad(fs.readFileSync("./src/content/art/art.yaml", "utf-8"))
+    art.forEach(element => {
+      createPage({
+        path: element.path,
+        component: require.resolve("./src/templates/art.js"),
+        context: {
+          pageContent: element.content,
         },
       })
     })

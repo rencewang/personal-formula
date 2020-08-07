@@ -38,7 +38,7 @@ const Header = () => {
         </div>
         &nbsp;
         <div>
-          <a href="/digital">
+          <a href="/art/digital">
             Art
           </a>
         </div>
