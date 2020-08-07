@@ -30,13 +30,13 @@ const ArtTemplate = props => {
   
                       <div className={data.item.column} key={`content_item_${index}`}>
                           <figure className="img-container">
-                              <a href="#still">
+                              <a href={`#${data.item.id}`}>
                                   <img className="red" src={data.item.path} />
                                   {/* <Img 
                                       fluid={data.item.path}
                                   /> */}
                               </a>
-                              <a href="#_" className="lightbox" id="still">
+                              <a href="#" className="lightbox" id="still">
                                   <img src={data.item.path} />
                               </a>
                               <div className="content-details">

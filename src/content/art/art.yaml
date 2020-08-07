@@ -30,19 +30,19 @@
           "Art piece accompanying the article \"Innovative Materials that Could Revolutionize Solar Power\" in Yale Scientific Magazine's 92.3 issue. Created using Procreate and Photoshop."
         column: column-xs-12 column-md-6
     - item: 
-        id: dig1
+        id: torus
         path: https://source.unsplash.com/random
         column: column-xs-12 column-md-3
     - item: 
-        id: dig2
+        id: sorbet
         path: https://source.unsplash.com/random
         column: column-xs-12 column-md-3
     - item: 
-        id: dig3
+        id: lover
         path: https://source.unsplash.com/random
         column: column-xs-12 column-md-3
     - item: 
-        id: dig4
+        id: voxel
         path: https://source.unsplash.com/random
         column: column-xs-12 column-md-3
 
@@ -118,38 +118,29 @@
   title: Design
   content:
     - item:
-        title: Still Water Runs Deep
+        title: On The Hill
+        id: hill
         path: https://www.rencewang.com/assets/images/art/art-dig-still-min.jpg
         description: 
-          "My mind as divided in three sections: one representing the nostalgic and traditional, one exhibiting the creative and interdisciplinary, and one illustrating the romantic and volatile. Through combining watercolor pieces with digital manipulation, I was able to experiment with different shades of complimentary colors and convey meaning through an audacious presentation."
-        column: column-xs-12 column-md-6
+          "Inspired by the New Zealand landscape of boundless open grasslands and steep mountains, this 3 story residence is set against the foot of a hill, with a flat pasture in front. The glass facade provides maximum lighting into the residence and guarantees unobstructed view of the outside for anywhere in the house. Combined with the prevalent use of glass, the stone sides present my interpretation of minimalism and modernity. The final illustration is completed in marker and pen."
+        column: column-xs-12
     - item:
-        title: Flexible Flux 
+        id: pros
         path: /src/images/artimages/design/budda.jpg
         description: 
-          "Art piece accompanying the article \"Elastic Electronics: Creating Flexible Matierials with conductive properties\" in Yale Scientific Magazine's 92.4 issue. Created using Procreate and Photoshop."
+          "A product design idea for a prosthetic arm. The illustration uses Stephanie Grebe, an award-winning Paralympian for table tennis as a case study model. The design features a changeable ball-socket joint that is compatible with many functional devices. For this project, I first envisioned a problem and then researched for details on the problem. The ideas and potential design brainstorms are on paper, while the final rendering was completed with Photoshop and Illustrator."
         column: column-xs-12 column-md-6
     - item: 
-        title: Eternal Continuum
+        id: cup
         path: ../../images/artimages/design/budda.jpg
         description:
-          "Sunlight filtering through white columns. The concept is symbolic of the search for truth and the journey of life. The silhouette of the person seems so small and inconsequential in the grander scheme of things, yet he is bravely, fearlessly marching towards the unknown, representing the resilient and adventurous nature of humans that I applaud. For this project, I first devised the idea through sketching, then the setting of the idea is created and modeled in Cinema 4D, rendered with Octane renderer, and modified through Photoshop."
+          "A product design idea for a cup holder that plays music through bone conduction technology. Music, tea, and coffee drinks all have healing and de-stressing powers. The project seeks to solve the problem of stress with a creative and natural solution, where relaxing music would be played when drinking from the cup. The ideas and potential design brainstorms are on paper, while the final rendering was completed with Photoshop and Illustrator."
         column: column-xs-12 column-md-6
     - item: 
-        title: Two birds. One Photon.
+        id: sketch
         path: ../../images/artimages/design/budda.jpg
-        description: 
-          "Art piece accompanying the article \"Innovative Materials that Could Revolutionize Solar Power\" in Yale Scientific Magazine's 92.3 issue. Created using Procreate and Photoshop."
         column: column-xs-12 column-md-6
     - item: 
+        id: speaker
         path: https://source.unsplash.com/random
-        column: column-xs-12 column-md-3
-    - item: 
-        path: https://source.unsplash.com/random
-        column: column-xs-12 column-md-3
-    - item: 
-        path: https://source.unsplash.com/random
-        column: column-xs-12 column-md-3
-    - item: 
-        path: https://source.unsplash.com/random
-        column: column-xs-12 column-md-3
+        column: column-xs-12 column-md-6
