@@ -50,11 +50,14 @@
         object-fit: cover;
         transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
-        // &:hover {
-        //     // -webkit-filter: grayscale(100%) brightness(130%) blur(10px); /* Chrome, Safari, Opera */
-        //     // filter: grayscale(100%) brightness(130%) blur(10px);
-        //     opacity: 0;
-        // }
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        &:hover {
+            -webkit-filter: grayscale(100%) brightness(130%) blur(10px); /* Chrome, Safari, Opera */
+            filter: grayscale(100%) brightness(130%) blur(10px);
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
     }
 }
 
