@@ -10,7 +10,9 @@ import "../styles/12columns.scss"
 
 const ArtTemplate = props => {
     const { pageContext } = props
-    const { pageContent } = pageContext
+    const { pageContent, pageTitle } = pageContext
+
+    console.log(pageContext)
 
     const images = useStaticQuery(graphql`
         query {
@@ -86,7 +88,7 @@ const ArtTemplate = props => {
             }
             hill: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/design/hill.jpg"}) {
                 childImageSharp {
-                    fluid {
+                    fluid(quality: 100) {
                         ...GatsbyImageSharpFluid
                     }
                 }
@@ -180,7 +182,7 @@ const ArtTemplate = props => {
 
     return (
         <Layout>
-        <SEO title="hello"/>
+        <SEO title={pageTitle}/>
     
           <section className="gallery">
               <div className="gallery-navigation bgcolor-changer">
