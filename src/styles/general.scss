@@ -87,7 +87,7 @@ blockquote {
     justify-content: flex-start;
     margin: 0 auto;
     height: 100%;
-    width: 95%;
+    width: 98%;
     max-width: 1700px;
     .content {
         height: 100%;
@@ -97,5 +97,8 @@ blockquote {
         @media only screen and (max-width: 650px) {
           margin-top: 40px;
         }
+    }
+    @media only screen and (max-width: 650px) {
+        width: 95%;
     }
 }

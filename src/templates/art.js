@@ -33,7 +33,7 @@ const ArtTemplate = props => {
                               <a href={`#${data.item.id}`}>
                                   <img className="red" src={data.item.path} />
                                   {/* <Img 
-                                      fluid={data.item.path}
+                                      fluid={data.item.path.childImageSharp.fluid}
                                   /> */}
                               </a>
                               <a href="#" className="lightbox" id={data.item.id}>
