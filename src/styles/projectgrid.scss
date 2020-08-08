@@ -55,8 +55,6 @@
             border-left: 2px solid black;
             @media (max-width: 900px) {
                 border-left: none;
-            }
-            @media (max-width: 750px) {
                 border-top: 2px solid black;
             }
             > h2 {
