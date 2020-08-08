@@ -132,7 +132,7 @@
         column: column-xs-12 column-md-6
     - item: 
         id: cup
-        path: ../../images/artimages/design/budda.jpg
+        path: /src/images/blogimages/graduation.jpg
         description:
           "A product design idea for a cup holder that plays music through bone conduction technology. Music, tea, and coffee drinks all have healing and de-stressing powers. The project seeks to solve the problem of stress with a creative and natural solution, where relaxing music would be played when drinking from the cup. The ideas and potential design brainstorms are on paper, while the final rendering was completed with Photoshop and Illustrator."
         column: column-xs-12 column-md-6

@@ -36,12 +36,12 @@ const ArtTemplate = props => {
                                       fluid={data.item.path}
                                   /> */}
                               </a>
-                              <a href="#" className="lightbox" id="still">
+                              <a href="#" className="lightbox" id={data.item.id}>
                                   <img src={data.item.path} />
                               </a>
                               <div className="content-details">
-                                  <h3 className="content-title">{data.item.title}</h3>
-                                  <p className="content-text">{data.item.description}</p>
+                                  <div className="content-title">{data.item.title}</div>
+                                  <div className="content-text">{data.item.description}</div>
                               </div>
                           </figure>
                       </div>
