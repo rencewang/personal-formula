@@ -42,7 +42,6 @@
     &:hover .content-details {
         top: 50%;
         left: 50%;
-        cursor: help;
         opacity: 1;
     }
     .red {
@@ -51,10 +50,11 @@
         object-fit: cover;
         transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
-        &:hover {
-            -webkit-filter: grayscale(100%) brightness(130%) blur(10px); /* Chrome, Safari, Opera */
-            filter: grayscale(100%) brightness(130%) blur(10px);
-        }
+        // &:hover {
+        //     // -webkit-filter: grayscale(100%) brightness(130%) blur(10px); /* Chrome, Safari, Opera */
+        //     // filter: grayscale(100%) brightness(130%) blur(10px);
+        //     opacity: 0;
+        // }
     }
 }
 
@@ -82,9 +82,9 @@
     color: black;
     font-family: 'Inter', sans-serif;
     .content-title {
-        font-size: 30px;
+        font-size: 35px;
         padding-bottom: 15px;
-        font-weight: 500;
+        font-weight: 400;
         margin: 0;
     }
     .content-text {
