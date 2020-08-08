@@ -5,6 +5,7 @@ const yaml = require("js-yaml")
 
 const blogTemplate = path.resolve(`./src/templates/blogPost.js`)
 const projectTemplate = path.resolve(`./src/templates/projectPost.js`)
+const artTemplate = path.resolve("./src/templates/art.js")
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
@@ -79,9 +80,10 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
     art.forEach(element => {
       createPage({
         path: element.path,
-        component: require.resolve("./src/templates/art.js"),
+        component: artTemplate,
         context: {
           pageContent: element.content,
+          pageTitle: element.title,
         },
       })
     })

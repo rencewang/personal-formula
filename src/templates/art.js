@@ -84,12 +84,103 @@ const ArtTemplate = props => {
                     }
                 }
             }
+            hill: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/design/hill.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            pros: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/design/pros.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            cup: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/design/cup.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            sketch: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/design/prosketch.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            speaker: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/design/speaker.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            still: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/still.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            flux: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/flux.png"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            eternal: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/eternal.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            photon: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/bird.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            torus: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/torus.png"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            sorbet: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/sorbet.jpg"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            lover: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/lover.gif"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            voxel: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/voxel.png"}) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `)
 
     return (
         <Layout>
-        <SEO title="Digital" />
+        <SEO title="hello"/>
     
           <section className="gallery">
               <div className="gallery-navigation bgcolor-changer">
@@ -100,7 +191,6 @@ const ArtTemplate = props => {
   
               <main className="gallery-container">
                   <div className="grid">
-  
                   {pageContent.map((data, index) => (
   
                       <div className={data.item.column} key={`content_item_${index}`}>
@@ -112,7 +202,7 @@ const ArtTemplate = props => {
                                   </div>
                               </a>
                               <a href="#" className="lightbox" id={data.item.id}>
-                                  <img src={data.item.path} />
+                                  <img src={data.item.path} alt={data.item.id} />
                               </a>
                               <div className="content-details">
                                   <div className="content-title">{data.item.title}</div>
@@ -122,7 +212,6 @@ const ArtTemplate = props => {
                       </div>
   
                   ))}
-  
                   </div>
               </main>
           </section>

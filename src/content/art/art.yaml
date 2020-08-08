@@ -32,19 +32,19 @@
     - item: 
         id: torus
         path: /artimages/digital/torus.png
-        column: column-xs-12 column-md-3
+        column: column-xs-12 column-md-4
     - item: 
         id: sorbet
         path: /artimages/digital/sorbet.jpg
-        column: column-xs-12 column-md-3
-    - item: 
-        id: lover
-        path: /artimages/digital/lover.gif
-        column: column-xs-12 column-md-3
+        column: column-xs-12 column-md-4
+    # - item: 
+    #     id: lover
+    #     path: /artimages/digital/lover.gif
+    #     column: column-xs-12 column-md-3
     - item: 
         id: voxel
         path: /artimages/digital/voxel.png
-        column: column-xs-12 column-md-3
+        column: column-xs-12 column-md-4
 
 - path: "/art/traditional"
   title: Traditional
