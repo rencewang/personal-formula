@@ -60,7 +60,7 @@ const ArtTemplate = props => {
             }
             snow: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/traditional/mountain.jpg"}) {
                 childImageSharp {
-                    fluid {
+                    fluid(quality: 100) {
                         ...GatsbyImageSharpFluid
                     }
                 }
@@ -208,7 +208,7 @@ const ArtTemplate = props => {
                               </a>
                               <div className="content-details">
                                   <div className="content-title">{data.item.title}</div>
-                                  <div className="content-text">{data.item.description}</div>
+                                  <div className="content-text">{data.item.medium}</div>
                               </div>
                           </figure>
                       </div>
