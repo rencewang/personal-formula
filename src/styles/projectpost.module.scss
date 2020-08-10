@@ -17,14 +17,4 @@
         font-weight: bold;
         border-bottom: 2px solid black;
     }
-    .projectcontent {
-        img {
-            width: 100%;
-            object-fit: cover;
-            padding-right: 5px;
-            @media (max-width: 750px) {
-                padding-right: 0;
-            }
-        }
-    }
 }
