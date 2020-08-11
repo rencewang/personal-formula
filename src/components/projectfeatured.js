@@ -41,7 +41,7 @@ const ProjectCard = () => {
     const data = useStaticQuery(graphql`
     query ProjectFeaturedQuery {
         allMarkdownRemark (
-            filter: { frontmatter: { tag: {in: "Featured"}, type: {eq: "project"} } }
+            filter: { frontmatter: { tag: {in: "Featured Project"}, type: {eq: "project"} } }
             sort: { fields: [frontmatter___updated] order: DESC }
         ) {
             edges {

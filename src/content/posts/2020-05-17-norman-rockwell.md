@@ -3,7 +3,7 @@ title: Norman Fucking Rockwell!&#58; Coexisting Hope &amp; Despair
 updated: 2020-05-17 15:14
 published: true
 category: Music
-tag: [Lana, Pop]
+tag: [Lana, Pop, Featured]
 permalink: "/blog/nfr"
 type: post
 description: "It's getting warmer in Los Angeles (which makes me miss, somewhat, the chilly mornings when I had to wake up at 6 to attend Zoom University — how masochistic of me). Summer is coming, the best batch of loquat is ready for picking, the crisis-mode-marked-by-six-feet-apart-crosses line at Costco, well, probably hasn't actually changed but subconsciously it seems shorter. After all, it's not just you and me who are not going anywhere: \"no one's going anywhere,\" and as Lana famously said: \"the culture is lit.\""

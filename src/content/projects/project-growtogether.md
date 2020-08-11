@@ -3,7 +3,7 @@ title: Grow Together
 updated: 2020-05-31 18:53
 published: true
 category: Project
-tag: [VR, Fun, Featured]
+tag: [VR, Fun, "Featured Project"]
 permalink: "/project/adobe"
 type: project
 timeframe: "Apr. 2020"

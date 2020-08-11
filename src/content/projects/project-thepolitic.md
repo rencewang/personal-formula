@@ -3,7 +3,7 @@ title: Presidential Hopefuls
 updated: 2019-11-25 00:00
 published: true
 category: Project
-tag: [Featured]
+tag: ["Featured Project"]
 permalink: "/project/hopefuls"
 type: project
 timeframe: "Nov. 2019"

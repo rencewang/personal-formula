@@ -3,7 +3,7 @@ title: 10 Albums of the 2010s
 updated: 2020-07-05 00:00
 published: true
 category: Project
-tag: [Featured]
+tag: ["Featured Project"]
 permalink: "/project/albums"
 type: project
 timeframe: "Nov. 2019 - Jun. 2020"
