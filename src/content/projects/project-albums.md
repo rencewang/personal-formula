@@ -12,13 +12,6 @@ coverimage: ../../images/projectimages/albumheader.png
 description: "Designed a jewel-box-bound book that was printed on a 19th century printing press to highlight the music that helped define the past decade, which was then turned digital with React."
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum.
+<div style="margin-top: 30px; font-size: 60px;"> 
+    Coming Soon...
+</div>
