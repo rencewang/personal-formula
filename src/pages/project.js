@@ -26,7 +26,7 @@ const ProjectPage = ({data}) => (
             <h2>Projects</h2>
               <h4><a href="https://spotlist.netlify.app/">Spotlist</a></h4>
             <h2>For Fun</h2>
-              <h4><a href="https://thoughts.rencewang.com/">Thoughts</a></h4>
+              <h4><a href="https://thoughts.rence.la/">Thoughts</a></h4>
               <h4><a href="https://www.rencewang.com/project/inmydefense">In My Defense</a></h4>
           </div>
         </div>
