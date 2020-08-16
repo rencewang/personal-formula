@@ -100,12 +100,14 @@ blockquote {
     width: 98%;
     max-width: 1700px;
     .content {
-        height: 100%;
-        flex: 1 1 auto;
         position: relative;
         overflow-y: auto;
         @media only screen and (max-width: 650px) {
-          margin-top: 40px;
+            margin-top: 40px;
+        }
+        @media only screen and (max-width: 900px) {
+            height: 100%;
+            flex: 1 1 auto;
         }
     }
     @media only screen and (max-width: 650px) {

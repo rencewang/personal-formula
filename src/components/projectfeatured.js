@@ -53,7 +53,7 @@ const ProjectCard = () => {
                         description
                         coverimage {
                             childImageSharp {
-                                fluid(maxWidth: 1500) {
+                                fluid(maxWidth: 1500, maxHeight: 450) {
                                     ...GatsbyImageSharpFluid
                                 }
                             }
