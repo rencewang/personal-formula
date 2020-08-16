@@ -109,7 +109,7 @@
 
 .blogcategorylist {
     border-left: 2px solid black;
-    @media (max-width: 750px) {
+    @media (max-width: 900px) {
         border-left: none;
         border-top: 2px solid black;
         overflow-y: visible;
@@ -130,7 +130,7 @@
             @media (min-width: 992px) {
                 font-size: 3rem;
             }
-            @media (max-width: 750px) {
+            @media (max-width: 900px) {
                 padding: 5px 0;
             }
             border-bottom: 2px solid black;  
@@ -141,7 +141,7 @@
             width: 100%;
             font-size: 1.5rem;
             font-weight: 400;
-            @media (max-width: 750px) {
+            @media (max-width: 900px) {
                 padding: 5px 0;
             }
         }

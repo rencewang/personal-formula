@@ -40,7 +40,7 @@ const Tracklist = () => {
         <div id="playlist-container">
             {tracks.slice(0, 10).map((item, index) => (
                 <div className="track" key={index}>
-                    <a href={item.track.external_urls.spotify} target='blank'>{item.track.name}</a>
+                    <a href={item.track.external_urls.spotify} target="_blank">{item.track.name}</a>
                 </div>
             ))}
         </div>
