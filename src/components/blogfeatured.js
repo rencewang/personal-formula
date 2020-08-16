@@ -34,7 +34,7 @@ const BlogFeatured = () => {
                 <div className="accordionpiece" key={`one-of-${featuredPost.node.id}`}>
                     <input type="checkbox" id={featuredPost.node.id} name="accordion" />
                     <label htmlFor={featuredPost.node.id}>{featuredPost.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</label>
-                    <div>
+                    <div style={{paddingRight: '10px'}}>
                         <p>{featuredPost.node.frontmatter.description}</p>
                         <div className="readmore-links">
                             <div>{featuredPost.node.frontmatter.updated}</div>
