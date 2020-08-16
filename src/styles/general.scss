@@ -109,6 +109,9 @@ blockquote {
             height: 100%;
             flex: 1 1 auto;
         }
+        @media (hover: none) {
+            height: 100%;
+        }
     }
     @media only screen and (max-width: 650px) {
         width: 95%;
