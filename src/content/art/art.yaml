@@ -13,7 +13,7 @@
     - item:
         title: Flexible Flux 
         id: flux
-        path: /artimages/digital/flux.png
+        path: /artimages/digital/flux.jpg
         medium:
           "Yale Scientific Magazine's 92.4 issue. Procreate, Photoshop."
         description: 
@@ -39,7 +39,7 @@
         column: column-xs-12 column-md-6
     - item: 
         id: torus
-        path: /artimages/digital/torus.png
+        path: /artimages/digital/torus.jpg
         medium:
           "Cinema 4D, Photoshop."
         column: column-xs-12 column-md-4
@@ -49,13 +49,13 @@
         medium:
           "Cinema 4D, Photoshop."
         column: column-xs-12 column-md-4
-    # - item: 
-    #     id: lover
-    #     path: /artimages/digital/lover.gif
-    #     column: column-xs-12 column-md-3
+    # # - item: 
+    # #     id: lover
+    # #     path: /artimages/digital/lover.gif
+    # #     column: column-xs-12 column-md-3
     - item: 
         id: voxel
-        path: /artimages/digital/voxel.png
+        path: /artimages/digital/voxel.jpg
         medium:
           "Magicavoxel, Photoshop."
         column: column-xs-12 column-md-4

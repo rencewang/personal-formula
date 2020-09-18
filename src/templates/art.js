@@ -128,7 +128,7 @@ const ArtTemplate = props => {
                     }
                 }
             }
-            flux: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/flux.png"}) {
+            flux: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/flux.jpg"}) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid
@@ -149,7 +149,7 @@ const ArtTemplate = props => {
                     }
                 }
             }
-            torus: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/torus.png"}) {
+            torus: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/torus.jpg"}) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid
@@ -170,7 +170,7 @@ const ArtTemplate = props => {
                     }
                 }
             }
-            voxel: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/voxel.png"}) {
+            voxel: file(sourceInstanceName: {eq: "src"}, relativePath: {eq: "images/artimages/digital/voxel.jpg"}) {
                 childImageSharp {
                     fluid {
                         ...GatsbyImageSharpFluid

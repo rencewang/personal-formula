@@ -8,7 +8,7 @@ permalink: "/project/albums"
 type: project
 timeframe: "Nov. 2019 - Jun. 2020"
 tools: "Figma, React, Photoshop, Printing Press"
-coverimage: ../../images/projectimages/albumheader.png
+coverimage: ../../images/projectimages/albumheader.jpg
 description: "Designed a jewel-box-bound book that was printed on a 19th century printing press to highlight the music that helped define the past decade, which was then turned digital with React."
 ---
 
