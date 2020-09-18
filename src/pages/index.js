@@ -13,11 +13,11 @@ const IndexPage = () => (
       <SEO title="Home" />
         <Tracklist />
         <div style={{margin: "30px auto"}}>
-          <h4 className="index-titles"><span>Featured Project</span></h4>
+          <div className="index-titles"><span>Featured Project</span></div>
           <ProjectFeatured />
         </div>
         <div style={{margin: "30px auto"}}>
-          <h4 className="index-titles"><span>Featured Writing</span></h4>
+          <div className="index-titles"><span>Featured Writing</span></div>
           <BlogFeatured />
         </div>
     </Layout>

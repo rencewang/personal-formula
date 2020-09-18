@@ -1,3 +1,5 @@
+@import "./general.scss";
+
 #playlist-container {
     font-family: freight-big-pro, serif;
     font-weight: 300;
@@ -7,12 +9,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    // overflow: hidden;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    .load-track {
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+    }
     .track {
         height: 20%;
         white-space: nowrap;
         font-size: 9vw;
-        line-height: 9vw;
+        line-height: 8vw;
+        opacity: 0;
+        animation: fadeIn 1s 0.5s ease forwards;
+        background-color: $backgroundColor;
         @media only screen and (min-width: 1600px) {
             font-size: 144px;
             line-height: 144px;
@@ -29,6 +43,11 @@
     @media (max-width: 750px) {
         margin-top: 30px;
     }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .index-titles {

@@ -107,21 +107,28 @@ const BlogFeatured = () => {
             <div className="about-nav">
                 <button onClick={closeAbout}>Close</button>
                 <div className="about-social">
-                    <a href="https://www.instagram.com/lawrencio.w/">Instagram</a>
-                    <a href="https://www.linkedin.com/in/lawrence-c-w/">LinkedIn</a>
+                    <a href="https://www.instagram.com/rencewang/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.linkedin.com/in/lawrence-c-w/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a href="/">Resume</a>
                 </div>
             </div>
 
             <div className="about-text">
-                <p>I'm a student at &#x2609; Yale studying the intersection between computer science and design and <i>also economics</i>. I like basic things such as watching Chinese TV, making Spotify playlists, collecting song lyrics, and yelping. If you'd like to find out more about the interesting personality I never knew I had, you can check out my basic <Link to="/blog">opinions</Link>, my basic <a href="https://lawrencewang.myportfolio.com">art</a>, or go find me &#x2197; while I get lost in space.</p>
+                <p>I'm a student at &#x2609; Yale studying the intersection between computer science and design, along with economics and politics. I like basic things such as watching Chinese TV, making Spotify playlists, collecting song lyrics, and yelping. If you'd like to find out more about the interesting personality I never knew I had, you can check out my basic <Link to="/blog">opinions</Link>, my basic <Link to="/art/digital">art</Link>, or go find me &#x2197; while I get lost in space.</p>
             </div>
 
             <div className="about-recents">
                 <span>Recently &#x2014;</span>
-                <span><a href="https://youtu.be/iVQhkDZS_Tk">a dream</a></span>
-                <span><a href="https://www.planneduniverse.com">a blog about floor plans</a></span>
-                <span><a href="https://youtu.be/kBF5l9rWQFs">a lesson on child-rearing</a></span>
+                <span><a href="https://youtu.be/iVQhkDZS_Tk" target="_blank" rel="noopener noreferrer">a dream</a></span>
+                <span><a href="https://www.planneduniverse.com" target="_blank" rel="noopener noreferrer">a blog about floor plans</a></span>
+                <span><a href="https://youtu.be/kBF5l9rWQFs" target="_blank" rel="noopener noreferrer">a lesson on child-rearing</a></span>
+            </div>
+            <div></div>
+            <div className="about-recents">
+                <span>Letters of Recommendation &#x2014;</span>
+                <span><a href="https://youtu.be/2l_HQjGgjrs" target="_blank" rel="noopener noreferrer">ASMR</a></span>
+                <span><a href="https://www.vogue.com/fashion-shows/fall-2005-couture/christian-dior/slideshow/collection#11" target="_blank" rel="noopener noreferrer">Dior without Maria Grazia</a></span>
+                <span><a href="https://open.spotify.com/album/52u4anZbHd6UInnmHRFzba?si=xNVxK3eXSrmCUEY5stXCEQ" target="_blank" rel="noopener noreferrer">Please Excuse Me For Being Antisocial</a></span>
             </div>
 
             <div>

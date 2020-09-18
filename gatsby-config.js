@@ -5,6 +5,13 @@ module.exports = {
     author: `Lawrence Wang`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-156829821-2",
+        head: true,
+      }
+    },
     `gatsby-plugin-preact`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify`,
@@ -76,13 +83,6 @@ module.exports = {
       options: {
         path: `${__dirname}/static`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-156829821-5",
-        head: true,
-      }
     },
   ],
 }

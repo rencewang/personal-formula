@@ -84,10 +84,10 @@ const ProjectCard = () => {
                                 </div>
                                 <div className="project-controls">
                                     <div className="project-controls-grid">
-                                        <button className="previous" onClick={showPreviousItem}>
+                                        <button className="previous" onClick={showPreviousItem} aria-label="previous-project">
                                             <span><i><Icon icon={leftArrow} /></i></span>
                                         </button>
-                                        <button className="next" onClick={showNextItem}>
+                                        <button className="next" onClick={showNextItem} aria-label="next-project">
                                             <span><i><Icon icon={rightArrow} /></i></span>
                                         </button>
                                     </div>
