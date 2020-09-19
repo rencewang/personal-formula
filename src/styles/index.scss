@@ -21,7 +21,7 @@
         top: 50%; 
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 40px;
+        font-size: 45px;
     }
     .track {
         height: 20%;
@@ -29,7 +29,8 @@
         font-size: 9vw;
         line-height: 8vw;
         opacity: 0;
-        animation: fadeIn 1s 0.5s ease forwards;
+        animation: fadeIn 1s ease forwards;
+        animation-delay: 0.5s;
         background-color: $backgroundColor;
         @media only screen and (min-width: 1600px) {
             font-size: 144px;
