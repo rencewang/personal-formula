@@ -24,6 +24,9 @@
     transition: visibility 0s linear 1s, opacity 0.25s 0s, transform 1s, bottom 0.7s, -webkit-transform 1s;
     border-top: 2px solid black;
     padding-bottom: 20px;
+    @media only screen and (max-width: 650px) {
+        width: 95vw;
+    }
     p {
         margin: 0 auto;
         font-size: 1.3rem;
@@ -108,4 +111,7 @@
     -moz-transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s, -webkit-transform 0.8s;
+    @media only screen and (max-width: 650px) {
+        width: 95vw;
+    }
 }

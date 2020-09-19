@@ -12,8 +12,8 @@ const IndexPage = () => (
     <Layout>
       <SEO title="Home" />
         <Tracklist />
-        <div style={{margin: "30px auto"}}>
-          <div className="index-titles"><span>Featured Project</span></div>
+        <div style={{margin: "0 auto"}}>
+          <div className="index-titles" style={{marginTop: "0"}}><span>Featured Project</span></div>
           <ProjectFeatured />
         </div>
         <div style={{margin: "30px auto"}}>
