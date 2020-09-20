@@ -24,8 +24,10 @@ const ProjectPage = ({data}) => (
               </h4>
             ))}
             <h2>Projects</h2>
-              <h4><a href="https://spotlist.netlify.app/">Spotlist</a></h4>
+              <h4><a href="https://spotlist.netlify.app/" target="_blank" rel="noopener noreferrer">Spotlist</a></h4>
               <p className="project-description">&#8593; react app to get information about any spotify playlist</p>
+              <h4><a href="https://chrome.google.com/webstore/detail/breathe-minimalist-new-ta/ngcbnnpkcfomilobdpffbkcabmehjnbm" target="_blank" rel="noopener noreferrer">Breathe</a></h4>
+              <p className="project-description">&#8593; minimalist New Tab browser extension for meditation</p>
             <h2>For Fun</h2>
               <h4><a href="https://thoughts.rence.la/">Thoughts</a></h4>
               <p className="project-description">&#8593; logging everyday thoughts</p>
