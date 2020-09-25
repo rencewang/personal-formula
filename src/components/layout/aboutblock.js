@@ -127,7 +127,7 @@ const BlogFeatured = () => {
             <div className="about-recents">
                 <span>Letters of Recommendation &#x2014;</span>
                 <span><a href="https://www.vogue.com/fashion-shows/fall-2005-couture/christian-dior/slideshow/collection#11" target="_blank" rel="noopener noreferrer">Dior without Maria Grazia</a></span>
-                <span><a href="https://youtu.be/2l_HQjGgjrs" target="_blank" rel="noopener noreferrer">ASMR</a></span>
+                <span><a href="https://youtu.be/HUMygkRhB88" target="_blank" rel="noopener noreferrer">ASMR</a></span>
                 <span><a href="https://open.spotify.com/album/52u4anZbHd6UInnmHRFzba?si=xNVxK3eXSrmCUEY5stXCEQ" target="_blank" rel="noopener noreferrer">Please Excuse Me For Being Antisocial</a></span>
             </div>
 
