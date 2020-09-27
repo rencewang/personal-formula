@@ -12,6 +12,8 @@ coverimage: ../../images/projectimages/albumheader.jpg
 description: "Designed a jewel-box-bound book that was printed on a 19th century printing press to highlight the music that helped define the past decade, which was then turned digital with React."
 ---
 
+
+
 <div class="csblock" id="context"> 
 <span class="csblockheading">
     Context
