@@ -26,26 +26,45 @@
             padding: 5px 0;
         }
     }
-    .projectside-post-nav {
-        max-height: 40%;
-        @media (max-width: 1200px) {
-            max-height: 35%;
+    .projectside-mobile-hide {
+        @media (max-width: 750px) {
+            display: none;
         }
+    }
+    .projectside-post-nav {
+        // max-height: 40%;
+        // @media (max-width: 1200px) {
+        //     max-height: 35%;
+        // }
         @media (max-width: 900px) {
             max-height: none;
             overflow-y: auto;
             border-bottom: none;
         }
         overflow-y: auto;
-        border-bottom: 2px solid black;
+        // border-bottom: 2px solid black;
         > h4 {
-            margin: 0; 
-            padding: 5px;
+            margin: 0;
+            padding: 2px 5px;
             width: 100%;
-            font-size: 1.4rem;
             font-weight: 400;
+            font-size: 2rem;
+            // &:not(:last-child) {
+            //     border-bottom: 2px solid black;
+            // }
             @media (max-width: 900px) {
-                padding: 5px 0;
+                padding: 2px 0;
+                font-size: 1.5rem;
+            }
+        }
+        .project-description {
+            margin: 0;
+            padding: 0 5px 3px 5px;
+            width: 100%;
+            font-weight: 400;
+            font-size: 1rem;
+            @media (max-width: 900px) {
+                padding: 0 0 3px 0;
             }
         }
         @media (max-width: 900px) {
@@ -92,9 +111,10 @@
             padding: 5px;
             width: 100%;
             font-size: 1.4rem;
-            &:not(:last-child) {
-                border-bottom: 2px solid black;
-            }
+            // &:not(:last-child) {
+            //     border-bottom: 2px solid black;
+            // }
+            border-bottom: 2px solid black;
             @media (max-width: 900px) {
                 padding: 5px 0 5px 0;
                 border-bottom: 2px solid black;
@@ -104,7 +124,6 @@
             order: 2;
         }
     }
-
 }
 
 .blogcategorylist {

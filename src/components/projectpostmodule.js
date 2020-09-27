@@ -1,7 +1,6 @@
 import React from 'react'
 // import Img from 'gatsby-image'
-
-import style from '../styles/projectpost.module.scss'
+import '../styles/projectpost.scss'
 
 const Post = ({
     title,
@@ -12,12 +11,12 @@ const Post = ({
 }) => {
 
     return (
-        <article className={style.project}>
-            <div className={style.projectheading}>
-                <div className={style.projecttitle}>{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
+        <article className="project">
+            <div className="projectheading">
+                <div className="projecttitle">{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
             </div>
 
-            <div className={style.projectcontent}>
+            <div className="projectcontent">
                 <div dangerouslySetInnerHTML={{ __html: html }} />
             </div>
         </article>
