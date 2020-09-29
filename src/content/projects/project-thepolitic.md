@@ -8,7 +8,7 @@ permalink: "/project/hopefuls"
 type: project
 timeframe: "Nov. 2019"
 tools: "Figma, HTML/CSS, Javascript, Adobe Photoshop"
-coverimage: ../../images/projectimages/hopefulshome.jpg
+coverimage: ../../images/projectimages/hopefulsheader.jpg
 description: "As a part of The Yale Politic's Tech Team, I helped develop this minisite showcasing The Yale Politic's features and interviews conducted over the past years about the presidential candidates for the 2020 election."
 ---
 
@@ -51,13 +51,17 @@ description: "As a part of The Yale Politic's Tech Team, I helped develop this m
     Implementation
 </span>
     With the goal of encouraging readers to go through all the content, we implemented a system of horizontal slider and vertical scrolling, such that all interviews with minimum clicks and scrolls. For typography, Canela was used for headings as it brings a kind of elegance different from the magazine’s usual Georgia, and Sailek was chosen for the body.
-    <br/>
+</div>
+
+![Politic Final 1](/projectimages/hopefulstype.jpg)
+
+<div class="csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
     The site was developed with a mobile-first mindset to account for The Politic’s largely mobile readership. On mobile devices, clicking the fixed header brings up a list of all the candidates, allowing quick access without excessive scrolling. 
 </div>
 
-![Politic Final 1](/projectimages/.jpg)
-![Politic Final 2](/projectimages/.jpg)
-![Politic Final 3](/projectimages/.jpg)
+![Politic Final 2](/projectimages/hopefulsmobile.png)
+![Politic Final 2](/projectimages/hopefulsbanner.jpg)
+![Politic Final 3](/projectimages/hopefulslayout.png)
 
 <div class="csblock" id="results"> 
 <span class="csblockheading">

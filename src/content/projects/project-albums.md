@@ -8,11 +8,9 @@ permalink: "/project/albums"
 type: project
 timeframe: "Nov. 2019 - Jun. 2020"
 tools: "Figma, React, Photoshop, Printing Press, Last.fm API"
-coverimage: ../../images/projectimages/albumheader.jpg
+coverimage: ../../images/projectimages/albumheadercolor.png
 description: "Designed a jewel-box-bound book that was printed on a 19th century printing press to highlight the music that helped define the past decade, which was then turned digital with React."
 ---
-
-
 
 <div class="csblock" id="context"> 
 <span class="csblockheading">
@@ -27,7 +25,7 @@ description: "Designed a jewel-box-bound book that was printed on a 19th century
     </div>
 </div>
 
-![10 Header](/projectimages/.jpg)
+![10 Header](/projectimages/albumheadercolor.png)
 
 <div class="csblock" id="original-design"> 
 <span class="csblockheading">
@@ -36,7 +34,8 @@ description: "Designed a jewel-box-bound book that was printed on a 19th century
     The front and back covers with tracklist, as well as the side piece are meant to give the illusion of an actual album packaging. Inside the jewel case, the circular printed cards extend the contrast between paper and compact discs as different means of distributing media, drawing from the technological advancements of recent decades as well as comparing the relative transience of printed ephemera versus the durability of plastic CDs.
 </div>
 
-![10 Slider](/projectimages/.jpg)
+![10 Slider](/projectimages/albumdesign.jpg)
+![10 Slider](/projectimages/albumdesignslider.png)
 
 <div class="csblock" id="web-design"> 
 <span class="csblockheading">
@@ -45,8 +44,8 @@ description: "Designed a jewel-box-bound book that was printed on a 19th century
     The web implementation takes into consideration adding additional information to the physical version, while maintaining consistency of aesthetics. As such, the serif type is kept constant with Garamond and Moret. Overall, each full-height page is meant to feel like one page in a book, whereas clicking on either the left or right side of the page simulates the flipping of book pages.
 </div>
 
-![10 Figma1](/projectimages/.jpg)
-![10 Figma2](/projectimages/.jpg)
+![10 Figma1](/projectimages/albumweb1.png)
+![10 Figma2](/projectimages/albumweb2.png)
 
 <div class="csblock" id="process"> 
 <span class="csblockheading">
@@ -59,8 +58,8 @@ description: "Designed a jewel-box-bound book that was printed on a 19th century
     </ul>
 </div>
 
-![10 Result1](/projectimages/.jpg)
-![10 Result2](/projectimages/.jpg)
+![10 Result1](/projectimages/albumfigma1.jpg)
+![10 Result2](/projectimages/albumfigma2.jpg)
 
 <div class="csblock" id="results"> 
 <span class="csblockheading">
