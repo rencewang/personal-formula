@@ -22,6 +22,9 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 5vw;
+        @media (min-width: 1600px) {
+            width: 80%;
+        }
     }
     .track {
         font-family: freight-big-pro, serif;
