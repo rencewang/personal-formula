@@ -1,15 +1,15 @@
 ---
 title: Virality Diagnostics
-updated: 2020-10-03 18:53
+updated: 2020-08-03 18:53
 published: true
 category: Project
-tag: [Work]
+tag: [Fun]
 permalink: "/project/virality"
 type: project
 timeframe: "July - September 2020"
 tools: "Figma, HTML/CSS, Javascript, Photoshop, Illustrator"
 coverimage: ../../images/projectimages/gatsby-astronaut.png
-description: ""
+description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sapiente obcaecati id enim libero quaerat nihil molestiae fugiat dicta? Quasi laudantium voluptas veniam soluta quos, perspiciatis ducimus enim? Libero, voluptatum."
 ---
 
 <div class="csblock" id="overview"> 
