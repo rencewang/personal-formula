@@ -1,7 +1,7 @@
 ---
 title: Virality Diagnostics
 updated: 2020-08-03 18:53
-published: true
+published: false
 category: Project
 tag: [Fun]
 permalink: "/project/virality"
