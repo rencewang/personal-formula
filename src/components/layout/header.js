@@ -21,7 +21,10 @@ const Header = () => {
           <Link to="/">
             Lawrence Wang
           </Link>
-          <button onClick={showAbout}>?</button>
+          <button onClick={showAbout}>
+            <span class={style.mobilehide}>INFO</span>
+            <span class={style.mobileshow}>?</span>
+          </button>
       </div>
 
       <div className={style.navigation}>

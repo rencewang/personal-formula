@@ -5,7 +5,7 @@ export default () => {
     return (
         <footer>
             {/* &copy; {(new Date()).getFullYear()} code &amp; design by me 满载星海 from LA */}
-            &copy; {(new Date()).getFullYear()} Built With Gatsby
+            &copy; {(new Date()).getFullYear()} Built With Gatsby. Set in Inter, Millionaire, and Freight.
         </footer>
     )
 }
