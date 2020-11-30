@@ -10,7 +10,7 @@ import "../styles/projectgrid.scss"
 
 const ProjectPostTemplate = ({ data, pageContext }) => {
     const {
-        frontmatter: { title, updated, permalink, timeframe, tools, coverimage },
+        frontmatter: { title, updated, permalink, timeframe, tools, coverimage, link },
         excerpt: autoExcerpt,
         id,
         html,
@@ -30,10 +30,15 @@ const ProjectPostTemplate = ({ data, pageContext }) => {
                         path={permalink}
                         coverimage={coverimage.absolutePath}
                         html={html}
+                        link={link} 
                     />
                 </div>
                 <div className="projectgrid-nav">
-                    <ProjectSide timeframe={timeframe} tools={tools} previousPost={previous} nextPost={next}/>
+                    <ProjectSide 
+                        timeframe={timeframe} 
+                        tools={tools} 
+                        previousPost={previous} 
+                        nextPost={next}/>
                 </div>
             </div>
         </Layout>
@@ -51,6 +56,7 @@ export const postQuery = graphql `
                 permalink
                 timeframe
                 tools
+                link
                 coverimage {
                     absolutePath
                 }

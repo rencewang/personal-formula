@@ -10,6 +10,7 @@ timeframe: "Nov. 2019 - Jun. 2020"
 tools: "Figma, React, Photoshop, Printing Press, Last.fm API"
 coverimage: ../../images/projectimages/albumheadercolor.png
 description: "Designed a jewel-box-bound book that was printed on a 19th century printing press to highlight the music that helped define the past decade, which was then turned digital with React."
+link: https://10of10s.netlify.app/
 ---
 
 <div class="csblock" id="context"> 

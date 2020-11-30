@@ -10,30 +10,31 @@ timeframe: "Apr. 2020"
 tools: "Adobe XD"
 coverimage: ../../images/projectimages/gtheader.png
 description: "A tablet app for kids to learn about and stay safe during the international pandemic through tending to a virtual garden. Designed for US-college-wide Adobe + Nickelodeon Creative Jam, at which my teammate and I received 6th place out of 145 teams."
+link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 ---
 
 <div class="csblock" id="overview"> 
-<span class="csblockheading">
+<span class="csblockheading" style="font-family: Inter; padding-left: 0;">
     Overview
 </span>
     For the Adobe + Nickelodeon Creative Jam, my partner (the magnificent Brice Bai) and I were tasked with creating a tablet experience for kids ages 11-13 using Adobe XD that incorporates elements of the Nickelodeon brand and either auto-animate or voice command features in XD.    
 </div>
 
 <div class="csblock" id="problem"> 
-<span class="csblockheading">
+<span class="csblockheading" style="font-family: Inter; padding-left: 0;">
     Problem
 </span>
     From the Design Jam: help kids feel safe, informed, and connected in the spirit of #KidsTogether. Design an Android tablet or Apple iPad app that provides a safe way for kids to communicate, share, and connect with their friends and family. 
 </div>
 
 <div class="csblock" id="solution"> 
-<span class="csblockheading">
+<span class="csblockheading" style="font-family: Inter; padding-left: 0;">
     Solution
 </span>
     Grow Together allows kids to cultivate their own virtual world through building a virtual garden, and through doing so, learn more about COVID-19 prevention, stay active in doors, and communicate with their community by messaging and sharing photos, videos, and creative projects. It also allows parents to monitor kids’ progress and activity, message in family group chat, and control kids’ content.
 </div>
 
-![GT header](/projectimages/.jpg)
+![GT header](/projectimages/gtheader.png)
 
 <div class="csblock" id="research" style="margin-bottom: 10px;"> 
 <span class="csblockheading">

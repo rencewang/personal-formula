@@ -8,16 +8,22 @@ const Post = ({
     path,
     excerpt,
     html,
+    link,
 }) => {
 
     return (
         <article className="project">
-            <div className="projectheading">
-                <div className="projecttitle">{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
+            <div className="projectlinkto">
+                <a href={link} target="_blank">See It in Action</a>
             </div>
+            <div className="projectarea">
+                <div className="projectheading">
+                    <div className="projecttitle">{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
+                </div>
 
-            <div className="projectcontent">
-                <div dangerouslySetInnerHTML={{ __html: html }} />
+                <div className="projectcontent">
+                    <div dangerouslySetInnerHTML={{ __html: html }} />
+                </div>
             </div>
         </article>
     )
