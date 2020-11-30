@@ -52,29 +52,47 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </span>
 </div>
 
-<div class="csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
+<div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
     <b>Garden:</b> I was responsible for creating graphical contents, as well as exploring the interactions for the garden page. In the garden, kid users can water their plants and access a market to purchase plants with in-app currency. They can also access their friend’s garden and water their friend’s plants. 
 </div>
 
-![GT garden](/projectimages/.jpg)
+<div class="gt-showcase">
+    <img class="gt-showcase-gif" src="/projectimages/GTGarden.gif"/>
+    <img class="gt-showcase-stat" src="/projectimages/.jpg"/>
+</div>
 
-<div class="csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
+
+<div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
     <b>Carousel:</b> Kids can see their friend’s activity, which encourages them to check out different activities and do more on their own, thereby cultivating healthy competition.
 </div>
 
-![GT carousel](/projectimages/.jpg)
+<div class="gt-showcase">
+    <img class="gt-showcase-gif" src="/projectimages/GTCarousel.gif"/>
+    <img class="gt-showcase-stat" src="/projectimages/.jpg"/>
+</div>
 
-<div class="csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
+<div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
     <b>Explore:</b> On the Explore page, kids can explore indoor activities, take quizzes, and watch videos and read articles about the pandemic. “Seeds” can be earned through consuming content, and serve as the impetus for keeping users engrossed.
 </div>
 
-![GT explore](/projectimages/.jpg)
+<div class="gt-showcase">
+    <img class="gt-showcase-gif" src="/projectimages/GTExplore.gif"/>
+    <img class="gt-showcase-stat" src="/projectimages/.jpg"/>
+</div>
 
-<div class="csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
+<!-- <div class="cs-block-image csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
+    <img class="gt-showcase-gif" src="/projectimages/GTParent.gif"/>
+    <div><b>Parental Control:</b> Parents can set daily maximum time, as well as suggest activities and educational content, for their children.</div>
+</div> -->
+
+<div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
     <b>Parental Control:</b> Parents can set daily maximum time, as well as suggest activities and educational content, for their children.
 </div>
 
-![GT parental](/projectimages/.jpg)
+<div class="gt-showcase">
+    <img class="gt-showcase-gif" src="/projectimages/GTParent.gif"/>
+    <img class="gt-showcase-stat" src="/projectimages/.jpg"/>
+</div>
 
 <div class="csblock" id="context"> 
 <span class="csblockheading">

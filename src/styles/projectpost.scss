@@ -88,6 +88,27 @@
                 font-size: 16px;
             }
         }
+        .cs-block-image {
+            img {
+                height: 400px;
+                width: auto;
+            }
+            display: flex;
+            flex-direction: row;
+            > div {
+                padding-left: 30px;
+                width: 40%;
+            }
+        }
+        // .csblock-limit {
+        //     width: 70%;
+        // }
+        .gt-showcase {
+            .gt-showcase-gif, .gt-showcase-stat {
+                height: 400px;
+                width: auto;
+            }
+        }
     }
     .projectlinkto {
         order: 2;
