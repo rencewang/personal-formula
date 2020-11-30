@@ -42,7 +42,8 @@ const Tracklist = () => {
     return (
         <div id="playlist-container">
             <div className="load-track">
-                :) Today is {today}. It's nice to meet you.
+                {/* :) Today is {today}. It's nice to meet you. */}
+                a playlist
             </div>
             {tracks.slice(0, 10).map((item, index) => (
                 <div className="track" key={index}>

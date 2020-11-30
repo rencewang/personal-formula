@@ -4,9 +4,23 @@
 	width: 100%;
   // height: 43vh;
   max-height: 50%;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  transition: all .6s ease;
+  -webkit-transition: all .6s ease;
   @media (min-width: 992px) {
     // height: 60vh;
     max-height: 50%;
+  }
+  // &:hover {
+  //   filter: none;
+  //   -webkit-filter: grayscale(0%);
+  // }  
+  @media (hover: hover) {
+    &:hover {
+      filter: none;
+      -webkit-filter: grayscale(0%);
+    }
   }
 }
 

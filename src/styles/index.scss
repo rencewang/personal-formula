@@ -21,9 +21,16 @@
         top: 50%; 
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 5vw;
+        font-size: 20vw;
+        width: 100%;
+        text-align: center;
         @media (min-width: 1600px) {
             width: 80%;
+        }
+        color: rgba(242, 242, 242, 0);
+        text-shadow: 0 0 30px rgba(0,0,0,0.9);
+        @media (max-width: 750px) {
+            text-shadow: 0 0 10px rgba(0,0,0,0.9);
         }
     }
     .track {
@@ -35,7 +42,7 @@
         opacity: 0;
         animation: fadeIn 1s ease forwards;
         animation-delay: 0.5s;
-        background-color: $backgroundColor;
+        // background-color: $backgroundColor;
         @media only screen and (min-width: 1600px) {
             font-size: 144px;
             line-height: 144px;
