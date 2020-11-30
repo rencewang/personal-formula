@@ -80,6 +80,19 @@ blockquote {
     padding: 0 10px
 }
 
+a.footnote-ref {
+    margin-left: 0px;
+    text-decoration: none !important; 
+}
+.footnotes {
+    ol {
+        padding-left: 20px;
+    }
+    ol li p {
+        margin-bottom: 0;
+    }
+}
+
 .overall {
     width: 100vw;
     height: 100vh;

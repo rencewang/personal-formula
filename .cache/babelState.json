@@ -3,21 +3,26 @@
     "develop": {
       "plugins": [
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "@prefresh/babel-plugin",
+          "stage": "develop",
           "options": {}
         },
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
+          "options": {}
+        },
+        {
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
           "options": {
             "plugins": []
           }
@@ -31,21 +36,21 @@
     "develop-html": {
       "plugins": [
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
           "options": {
             "plugins": []
           }
@@ -59,21 +64,21 @@
     "build-html": {
       "plugins": [
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
           "options": {
             "plugins": []
           }
@@ -87,21 +92,21 @@
     "build-javascript": {
       "plugins": [
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-optional-chaining\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-nullish-coalescing-operator\\lib\\index.js",
           "options": {}
         },
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\plugin-proposal-numeric-separator\\lib\\index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Volumes/Data/Git/formula-update/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "D:\\Document\\Github\\formula-update\\node_modules\\@babel\\preset-typescript\\lib\\index.js",
           "options": {
             "plugins": []
           }

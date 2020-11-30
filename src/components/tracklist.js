@@ -3,8 +3,8 @@ import "../styles/index.scss"
 
 const Tracklist = () => {
 
-    const options = {  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
-    const today = new Date().toLocaleTimeString('en-us', options).split(' ', 4).join(' ').slice(0,-1)
+    // const options = {  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
+    // const today = new Date().toLocaleTimeString('en-us', options).split(' ', 4).join(' ').slice(0,-1)
 
     const request = require('request')
     const client_id = 'fe75f206e45d40dc81c0e21dfba40054'
