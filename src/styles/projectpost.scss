@@ -12,7 +12,7 @@
         display: block;
     }
     .projectarea {
-        order: 2;
+        order: 1;
         flex-basis: auto;
         overflow-y: auto;
         overflow-x: hidden;
@@ -90,13 +90,13 @@
         }
     }
     .projectlinkto {
-        order: 1;
+        order: 2;
         flex-basis: 20px;
         z-index: 100;
         background-color: rgb(242, 242, 242);
         margin-top: auto;
         text-align: center;
-        border-bottom: 2px solid black;
+        border-top: 2px solid black;
         padding: 2px 0;
     }
 }

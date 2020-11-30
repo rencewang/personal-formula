@@ -12,12 +12,8 @@ coverimage: ../../images/projectimages/gtheader.png
 description: "A tablet app for kids to learn about and stay safe during the international pandemic through tending to a virtual garden. Designed for US-college-wide Adobe + Nickelodeon Creative Jam, at which my teammate and I received 6th place out of 145 teams."
 link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 ---
-
-<div class="csblock" id="overview"> 
-<span class="csblockheading" style="font-family: Inter; padding-left: 0;">
-    Overview
-</span>
-    For the Adobe + Nickelodeon Creative Jam, my partner (the magnificent Brice Bai) and I were tasked with creating a tablet experience for kids ages 11-13 using Adobe XD that incorporates elements of the Nickelodeon brand and either auto-animate or voice command features in XD.    
+<div class="csblock" id="overview" style="margin-top: 10px;"> 
+    For the Adobe + Nickelodeon Creative Jam, my partner (the magnificent <a href="https://bricebai.com/" target="_blank"> Brice Bai</a>) and I were tasked with creating a tablet experience for kids ages 11-13 using Adobe XD that incorporates elements of the Nickelodeon brand and either auto-animate or voice command features in XD.    
 </div>
 
 <div class="csblock" id="problem"> 
