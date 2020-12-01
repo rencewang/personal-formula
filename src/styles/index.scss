@@ -19,18 +19,22 @@
         font-family: serif;
         position: absolute;
         top: 50%; 
-        left: 50%;
+        left: 40%;
         transform: translate(-50%, -50%);
-        font-size: 20vw;
+        // font-size: 20vw;
         width: 100%;
         text-align: center;
+        .circle:before {
+            content: ' \25CF';
+            font-size: 50vw;
+        }
         @media (min-width: 1600px) {
             width: 80%;
         }
         color: rgba(242, 242, 242, 0);
-        text-shadow: 0 0 30px rgba(0,0,0,0.9);
+        text-shadow: 0 0 600px rgba(0,0,0,0.9);
         @media (max-width: 750px) {
-            text-shadow: 0 0 10px rgba(0,0,0,0.9);
+            text-shadow: 0 0 100px rgba(0,0,0,0.9);
         }
     }
     .track {

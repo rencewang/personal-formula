@@ -43,7 +43,7 @@ const Tracklist = () => {
         <div id="playlist-container">
             <div className="load-track">
                 {/* :) Today is {today}. It's nice to meet you. */}
-                a playlist
+                <span class="circle"></span>
             </div>
             {tracks.slice(0, 10).map((item, index) => (
                 <div className="track" key={index}>
