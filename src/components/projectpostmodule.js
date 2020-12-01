@@ -23,7 +23,7 @@ const Post = ({
                 </div>
             </div>
             <div className="projectlinkto">
-                <a href={link} target="_blank">See It in Action</a>
+                <a href={link} target="_blank" rel="noreferrer">See It in Action</a>
             </div>
         </article>
     )
