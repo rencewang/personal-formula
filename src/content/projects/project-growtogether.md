@@ -57,8 +57,8 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </div>
 
 <div class="gt-showcase">
-    <img class="gt-showcase-gif" src="/projectimages/GTGarden.gif"/>
     <img class="gt-showcase-stat" src="/projectimages/GTGarden.png"/>
+    <img class="gt-showcase-gif" src="/projectimages/GTGarden.gif"/>
 </div>
 
 
@@ -76,8 +76,8 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </div>
 
 <div class="gt-showcase">
-    <img class="gt-showcase-gif" src="/projectimages/GTExplore.gif"/>
     <img class="gt-showcase-stat" src="/projectimages/GTExplore.png"/>
+    <img class="gt-showcase-gif" src="/projectimages/GTExplore.gif"/>
 </div>
 
 <!-- <div class="cs-block-image csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
