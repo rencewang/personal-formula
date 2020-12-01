@@ -107,6 +107,15 @@
             .gt-showcase-gif, .gt-showcase-stat {
                 height: 400px;
                 width: auto;
+                @media (max-width: 750px) {
+                    width: 48%; 
+                    height: auto;
+                }
+            }
+            @media (max-width: 750px) {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
             }
         }
     }

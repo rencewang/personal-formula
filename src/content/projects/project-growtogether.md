@@ -58,7 +58,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 
 <div class="gt-showcase">
     <img class="gt-showcase-gif" src="/projectimages/GTGarden.gif"/>
-    <img class="gt-showcase-stat" src="/projectimages/.jpg"/>
+    <img class="gt-showcase-stat" src="/projectimages/GTGarden.png"/>
 </div>
 
 
@@ -68,7 +68,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 
 <div class="gt-showcase">
     <img class="gt-showcase-gif" src="/projectimages/GTCarousel.gif"/>
-    <img class="gt-showcase-stat" src="/projectimages/.jpg"/>
+    <img class="gt-showcase-stat" src="/projectimages/GTCarousel.png"/>
 </div>
 
 <div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
@@ -77,7 +77,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 
 <div class="gt-showcase">
     <img class="gt-showcase-gif" src="/projectimages/GTExplore.gif"/>
-    <img class="gt-showcase-stat" src="/projectimages/.jpg"/>
+    <img class="gt-showcase-stat" src="/projectimages/GTExplore.png"/>
 </div>
 
 <!-- <div class="cs-block-image csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
@@ -91,7 +91,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 
 <div class="gt-showcase">
     <img class="gt-showcase-gif" src="/projectimages/GTParent.gif"/>
-    <img class="gt-showcase-stat" src="/projectimages/.jpg"/>
+    <img class="gt-showcase-stat" src="/projectimages/GTParent.png"/>
 </div>
 
 <div class="csblock" id="context"> 
