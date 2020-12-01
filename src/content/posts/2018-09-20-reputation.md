@@ -50,7 +50,7 @@ She leaves him with no regret. Takes the money and the keys.  Just like how she 
 
 In the first half of the album, Swift discusses reputation and dreams of revenge in tracks shrouded with a dark, industrial voltage. Yet in the second half, she continues the iconic vibe of 1989 that pushes the passion of love to momentous heights. She climbed up the ruins of her wounded reputation, and then found salvation in love— that’s a concept that everyone can relate to. Thus, the listening experience is the audience’s journey, along with Swift, to find the exit to the pain and the gleaming sun of a newfound comfort.
 
-![Section](https://www.philly.com/resizer/aDjqN0LW_l-NmG96oVQuPCcpjX8=/1400x0/center/middle/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/T45JUACWFNFHJLT23COTJZ3K6M.jpg)
+![Section](/blogimages/reputation.jpg)
 
 ## The Verdict
 

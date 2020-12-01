@@ -26,7 +26,7 @@ Nadia is not a completely good person. Sometimes she’s not kind enough, or pro
 
 Perhaps that’s her defense mechanism, of closing herself off from the world, thus eliminating the possibility of getting hurt and hurting other people. Or perhaps that’s who we all are — _incompletely good_ — as a result of our tendency to avoid pain and discomfort. But may I suggest to you that the experiences of bruising, the pain inherent to love, hate, and betrayal are the most real, human things, and that when we insulate ourselves from the world, we lose parts of what make us human in the first place.
 
-![Cover](https://raw.githubusercontent.com/law-wang/moodblog/master/assets/images/RD2.jpg)
+![Cover](/blogimages/RD2.jpg)
 
 ## It Is Not The End
 

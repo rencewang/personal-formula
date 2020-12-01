@@ -10,7 +10,7 @@ type: post
 
 _Gone Girl_ and _Nocturnal Animals_ — released two years apart, one by the legendary David Fincher, the other by the fashion mongol Tom Ford — are strikingly similar in many ways. Both contain wonderful shots, such as when Ben Affleck’s fingers run through Rosamund Pike’s hair and when Amy Adams stands in front of the mirror in her green dress as A Table For Two plays in the background. _Gone Girl_ describes the aftermath of a girl losing the perfect guy she was promised, whereas _Nocturnal Animals_ describes that of a guy losing his wife and child. Now, maybe Tom Ford’s use of color and treatment of silence makes his work the more artsy of the two, but we should all be able to agree that the two share a common discussion of love and revenge.  
 
-![Cover](/blogimages/Nocturnal.jpg)
+![Cover](/blogimages/NA1.jpg)
 
 ## Two Perspectives
 
@@ -28,7 +28,7 @@ In _Nocturnal Animals_, the key conflict can be boiled down to the socioeconomic
 
 As such, the social construct is a common factor in both tragedies. One shatters the American Dream with its nuclear-family-happiness and exposes the hypocrisy of middle class elites who indulge in intricate illusions out of boredom and encourage media carnivals after every borderline societal crisis. The other one confirms the doom of socioeconomic mismatch even in a society where the effects of such are said to be negligible.
 
-![Cover](https://badgerherald.com/wordpress/wp-content/uploads/2014/10/gone-girl-01_1485x612.jpg)
+![Cover](/blogimages/NA2.jpg)
 
 ## No One Comes Out Clean
 
