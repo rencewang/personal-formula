@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{cvcK:function(n,t,e){"use strict";e.r(t);var o=e("9Hrx"),c=e("FdF9"),i=function(n){function t(){return n.apply(this,arguments)||this}Object(o.a)(t,n);var e=t.prototype;return e.componentDidMount=function(){window.location.replace("https://chrome.google.com/webstore/detail/breathe-minimalist-new-ta/ngcbnnpkcfomilobdpffbkcabmehjnbm")},e.render=function(){return c.default.createElement("div",null)},t}(c.Component);t.default=i}}]);
+//# sourceMappingURL=component---src-pages-breathe-js-ba5a85fed2d50498101b.js.map

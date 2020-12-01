@@ -115,6 +115,9 @@
                 span {
                     height: 400px;
                 }
+                img {
+                    object-fit: cover;
+                }
             }
             .gt-showcase-gif {
                 img {
@@ -135,7 +138,7 @@
         padding: 2px 0;
         @media (max-width: 900px) {
             font-size: 30px;
-            border-bottom: 2px solid black;
+            text-align: left;
         }
     }
 }
