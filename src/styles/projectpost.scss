@@ -97,9 +97,6 @@
                 width: 40%;
             }
         }
-        // .csblock-limit {
-        //     width: 70%;
-        // }
         .gt-showcase {
             display: flex;
             flex-direction: row;
@@ -109,15 +106,17 @@
                 margin-right: 5px;
             }
             .gt-showcase-stat {
-                width: 50%;
-                height: 400px;
-                max-height: 100%;
-                span {
+                img {
+                    width: auto;
                     height: 400px;
                 }
-                img {
-                    object-fit: cover;
-                }
+                // max-height: 100%;
+                // span {
+                //     height: 400px;
+                // }
+                // img {
+                //     object-fit: cover;
+                // }
             }
             .gt-showcase-gif {
                 img {

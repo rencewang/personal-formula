@@ -57,7 +57,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </div>
 
 <div class="gt-showcase">
-    <div class="gt-showcase-stat"><img src="/projectimages/GTGarden.png"/></div>
+    <div class="gt-showcase-stat"><img src="/projectimages/GTGardenEDG.gif"/></div>
     <div class="gt-showcase-gif"><img src="/projectimages/GTGarden.gif"/></div>
 </div>
 
@@ -68,7 +68,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 
 <div class="gt-showcase">
     <div class="gt-showcase-gif"><img src="/projectimages/GTCarousel.gif"/></div>
-    <div class="gt-showcase-stat"><img src="/projectimages/GTCarousel.png"/></div>
+    <div class="gt-showcase-stat"><img src="/projectimages/GTCarouselEDG.gif"/></div>
 </div>
 
 <div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
@@ -76,14 +76,9 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </div>
 
 <div class="gt-showcase">
-    <div class="gt-showcase-stat"><img src="/projectimages/GTExplore.png"/></div>
+    <div class="gt-showcase-stat"><img src="/projectimages/GTExploreEDG.gif"/></div>
     <div class="gt-showcase-gif"><img src="/projectimages/GTExplore.gif"/></div>
 </div>
-
-<!-- <div class="cs-block-image csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
-    <img class="gt-showcase-gif" src="/projectimages/GTParent.gif"/>
-    <div><b>Parental Control:</b> Parents can set daily maximum time, as well as suggest activities and educational content, for their children.</div>
-</div> -->
 
 <div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
     <b>Parental Control:</b> Parents can set daily maximum time, as well as suggest activities and educational content, for their children.
@@ -91,7 +86,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 
 <div class="gt-showcase">
     <div class="gt-showcase-gif"><img src="/projectimages/GTParent.gif"/></div>
-    <div class="gt-showcase-stat"><img src="/projectimages/GTParent.png"/></div>
+    <div class="gt-showcase-stat"><img src="/projectimages/GTParentEDG.gif"/></div>
 </div>
 
 <div class="csblock" id="context"> 

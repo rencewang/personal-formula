@@ -10,7 +10,7 @@ timeframe: "Nov. 2019"
 tools: "Figma, HTML/CSS, Javascript, Adobe Photoshop"
 coverimage: ../../images/projectimages/hopefulsheader.jpg
 description: "As a part of The Yale Politic's Tech Team, I helped develop this minisite showcasing The Yale Politic's features and interviews conducted over the past years about the presidential candidates for the 2020 election."
-link: https://www.rence.la/
+link: https://chiaski.github.io/politic-hopefuls/
 ---
 
 <div class="csblock" id="context"> 
