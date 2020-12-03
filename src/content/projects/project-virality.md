@@ -7,6 +7,7 @@ tag: [Fun]
 permalink: "/project/virality"
 type: project
 casestudy: true
+tagline: "Web Design, Branding Design"
 timeframe: "July - September 2020"
 tools: "Figma, HTML/CSS, Javascript, Photoshop, Illustrator"
 coverimage: ../../images/projectimages/gatsby-astronaut.png

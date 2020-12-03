@@ -7,6 +7,7 @@ tag: ["Featured Project"]
 permalink: "/project/adobe"
 type: project
 casestudy: true
+tagline: "App Design"
 timeframe: "Apr. 2020"
 tools: "Adobe XD, Illustrator"
 coverimage: ../../images/projectimages/gtheader.png
@@ -95,6 +96,9 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
     Process
 </span>
 </div>
+
+![GT wireframe](/projectimages/GTWireframes.png)
+![GT colors](/projectimages/GTColors.png)
 
 ![GT lofi](/projectimages/.jpg)
 ![GT flowchartk](/projectimages/.jpg)

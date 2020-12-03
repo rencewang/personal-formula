@@ -73,39 +73,7 @@ const ProjectCard = () => {
             <ul className="slider">
                 
                 {data.allMarkdownRemark.edges.map((featuredProject, index) => {
-                    if (index === 0 && featuredProject.node.frontmatter.casestudy == true) {
-                        return (
-                            <li className="project-slideritem active" key={featuredProject.node.id}>
-                            <div className="projectfeatured-mobileflex">
-                                <div className="imageholder">
-                                    {/* <img src={featuredProject.node.frontmatter.coverimage.absolutePath} /> */}
-                                    <Img 
-                                        fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} 
-                                        style={{maxHeight: '100%'}}
-                                    />
-                                </div>
-                                <div className="project-controls">
-                                    <div className="project-controls-grid">
-                                        <button className="previous" onClick={showPreviousItem} aria-label="previous-project">
-                                            <span><i><Icon icon={leftArrow} /></i></span>
-                                        </button>
-                                        <button className="next" onClick={showNextItem} aria-label="next-project">
-                                            <span><i><Icon icon={rightArrow} /></i></span>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div className="intro">
-                                    <Link to={featuredProject.node.frontmatter.link}>
-                                        <h1 className="title">{featuredProject.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</h1>
-                                    </Link>
-                                    <div className="description">
-                                        {featuredProject.node.frontmatter.description}
-                                    </div>
-                                </div>
-                            </div>
-                            </li>
-                        )
-                    } else if (index === 0 && featuredProject.node.frontmatter.casestudy == false) {
+                    if (index === 0 && featuredProject.node.frontmatter.casestudy === true) {
                         return (
                             <li className="project-slideritem active" key={featuredProject.node.id}>
                             <div className="projectfeatured-mobileflex">
@@ -137,7 +105,39 @@ const ProjectCard = () => {
                             </div>
                             </li>
                         )
-                    } else if (featuredProject.node.frontmatter.casestudy == true) {
+                    } else if (index === 0 && featuredProject.node.frontmatter.casestudy === false) {
+                        return (
+                            <li className="project-slideritem active" key={featuredProject.node.id}>
+                            <div className="projectfeatured-mobileflex">
+                                <div className="imageholder">
+                                    {/* <img src={featuredProject.node.frontmatter.coverimage.absolutePath} /> */}
+                                    <Img 
+                                        fluid={featuredProject.node.frontmatter.coverimage.childImageSharp.fluid} 
+                                        style={{maxHeight: '100%'}}
+                                    />
+                                </div>
+                                <div className="project-controls">
+                                    <div className="project-controls-grid">
+                                        <button className="previous" onClick={showPreviousItem} aria-label="previous-project">
+                                            <span><i><Icon icon={leftArrow} /></i></span>
+                                        </button>
+                                        <button className="next" onClick={showNextItem} aria-label="next-project">
+                                            <span><i><Icon icon={rightArrow} /></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div className="intro">
+                                    <Link to={featuredProject.node.frontmatter.link}>
+                                        <h1 className="title">{featuredProject.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</h1>
+                                    </Link>
+                                    <div className="description">
+                                        {featuredProject.node.frontmatter.description}
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                        )
+                    } else if (featuredProject.node.frontmatter.casestudy === true) {
                         return (
                             <li className="project-slideritem" key={featuredProject.node.id}>
                             <div className="projectfeatured-mobileflex">
@@ -159,7 +159,7 @@ const ProjectCard = () => {
                                     </div>
                                 </div>
                                 <div className="intro">
-                                    <Link to={featuredProject.node.frontmatter.link}>
+                                    <Link to={featuredProject.node.frontmatter.permalink}>
                                         <h1 className="title">{featuredProject.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</h1>
                                     </Link>
                                     <div className="description">
@@ -191,7 +191,7 @@ const ProjectCard = () => {
                                     </div>
                                 </div>
                                 <div className="intro">
-                                    <Link to={featuredProject.node.frontmatter.permalink}>
+                                    <Link to={featuredProject.node.frontmatter.link}>
                                         <h1 className="title">{featuredProject.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</h1>
                                     </Link>
                                     <div className="description">

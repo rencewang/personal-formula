@@ -7,6 +7,7 @@ tag: ["Featured Project"]
 permalink: "/project/albums"
 type: project
 casestudy: true
+tagline: "Art, Design, Web Development"
 timeframe: "Nov. 2019 - Jun. 2020"
 tools: "Figma, React, Photoshop, Printing Press, Last.fm API"
 coverimage: ../../images/projectimages/albumheadercolor.png

@@ -55,8 +55,10 @@
         -webkit-transform: translate3d(0,0,0);
         transform: translate3d(0,0,0);
         &:hover {
-            -webkit-filter: grayscale(100%) brightness(130%) blur(10px); /* Chrome, Safari, Opera */
-            filter: grayscale(100%) brightness(130%) blur(10px);
+            -webkit-filter: grayscale(100%) brightness(70%) sepia(100%)
+            hue-rotate(0deg) saturate(250%) contrast(2) blur(10px); /* Chrome, Safari, Opera */
+            filter: grayscale(100%) brightness(70%) sepia(100%) hue-rotate(0deg)
+            saturate(250%) contrast(0.8) blur(10px);
             -webkit-transform: translate3d(0,0,0);
             transform: translate3d(0,0,0);
         }
@@ -112,7 +114,7 @@
     text-align: center;
     top: 0;
     left: 0;
-    background: rgba(100, 100, 100, 0.8);
+    background: rgba(255, 212, 96, 0.8);
     backdrop-filter: blur(6px);
     /** Pad the lightbox image */
     img {

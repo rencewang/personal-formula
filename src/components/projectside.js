@@ -16,6 +16,7 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
                     frontmatter {
                         title
                         permalink
+                        casestudy
                     }
                     id
                 }
@@ -33,11 +34,15 @@ const ProjectSide = ({ timeframe, tools, previousPost, nextPost}) => {
 
             <div className="projectside-post-nav">
                 <h2>Case Studies</h2>
-                {data.allMarkdownRemark.edges.map((project, index) => (
-                    <h4 key={index}>
-                        <Link to={project.node.frontmatter.permalink}>{project.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
-                    </h4>
-                ))}
+                {data.allMarkdownRemark.edges.map((project, index) => {
+                    if (project.node.frontmatter.casestudy === true) {
+                        return (
+                            <h4 key={index}>
+                                <Link to={project.node.frontmatter.permalink}>{project.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
+                            </h4>
+                        ) 
+                    }
+                })}
             </div>
 
             <div className="projectside-post-nav projectside-mobile-hide">

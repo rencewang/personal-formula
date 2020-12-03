@@ -7,6 +7,7 @@ tag: ["Featured Project"]
 permalink: "/project/hopefuls"
 type: project
 casestudy: true
+tagline: "Web Design, Web Development"
 timeframe: "Nov. 2019"
 tools: "Figma, HTML/CSS, Javascript, Adobe Photoshop"
 coverimage: ../../images/projectimages/hopefulsheader.jpg
