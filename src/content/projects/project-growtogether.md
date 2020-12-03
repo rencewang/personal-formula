@@ -1,6 +1,6 @@
 ---
 title: Grow Together
-updated: 2020-05-31 18:53
+updated: 2020-12-02 18:53
 published: true
 category: Project
 tag: ["Featured Project"]
@@ -97,12 +97,20 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </span>
 </div>
 
+![GT sketches](/projectimages/.jpg)
 ![GT wireframe](/projectimages/GTWireframes.png)
 ![GT colors](/projectimages/GTColors.png)
 
-![GT lofi](/projectimages/.jpg)
-![GT flowchartk](/projectimages/.jpg)
-![GT flowchartp](/projectimages/.jpg)
+<div class="csblock" id="context" style="margin-top: 100px; margin-bottom: 10px"> 
+<span class="csblockheading">
+    User Flows
+</span>
+</div>
+
+![GT simpleflow](/projectimages/.jpg)
+![GT simpleflow](/projectimages/.jpg)
+![GT flowchartk](/projectimages/GTFlowKid.png)
+![GT flowchartp](/projectimages/GTFlowParent.png)
 ![GT final](/projectimages/.jpg)
 
 <div class="csblock" id="results" style="margin-top: 100px; margin-bottom: 10px"> 
