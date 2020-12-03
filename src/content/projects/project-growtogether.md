@@ -6,6 +6,7 @@ category: Project
 tag: ["Featured Project"]
 permalink: "/project/adobe"
 type: project
+casestudy: true
 timeframe: "Apr. 2020"
 tools: "Adobe XD, Illustrator"
 coverimage: ../../images/projectimages/gtheader.png

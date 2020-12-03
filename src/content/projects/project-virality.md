@@ -6,6 +6,7 @@ category: Project
 tag: [Fun]
 permalink: "/project/virality"
 type: project
+casestudy: true
 timeframe: "July - September 2020"
 tools: "Figma, HTML/CSS, Javascript, Photoshop, Illustrator"
 coverimage: ../../images/projectimages/gatsby-astronaut.png
