@@ -11,15 +11,18 @@ import "../styles/index.scss"
 const IndexPage = () => (
     <Layout>
       <SEO title="Home" />
+      <div className="index-roll">
         <Tracklist />
-        <div style={{margin: "0 auto"}}>
-          <div className="index-titles" style={{marginTop: "0"}}><span>Featured Project</span></div>
+        <div className="index-featured-group">
+          <div className="index-titles"><span>Featured Project</span></div>
           <ProjectFeatured />
         </div>
-        <div style={{margin: "30px auto"}}>
+        <div className="index-featured-group">
           <div className="index-titles"><span>Featured Writing</span></div>
           <BlogFeatured />
         </div>
+        <div className="index-glow"><span className="circle"></span></div>
+      </div>
     </Layout>
 )
 
