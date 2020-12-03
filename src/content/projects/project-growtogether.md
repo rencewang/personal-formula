@@ -98,8 +98,8 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </div>
 
 ![GT sketches](/projectimages/.jpg)
-![GT wireframe](/projectimages/GTWireframes.png)
-![GT colors](/projectimages/GTColors.png)
+![Wireframe](/projectimages/GTWireframes.png)
+![Colors](/projectimages/GTColors.png)
 
 <div class="csblock" id="context" style="margin-top: 100px; margin-bottom: 10px"> 
 <span class="csblockheading">
@@ -107,10 +107,19 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </span>
 </div>
 
+<div class="csblock-limit csblock" style="font-size: 40px; margin: 50px auto 20px auto;"> 
+    <b>For Kids:</b> 
+</div>
+
 ![GT simpleflow](/projectimages/.jpg)
+![Kid's Flow](/projectimages/GTFlowKid.png)
+
+<div class="csblock-limit csblock" style="font-size: 40px; margin: 50px auto 20px auto;"> 
+    <b>For Parents:</b> 
+</div>
+
 ![GT simpleflow](/projectimages/.jpg)
-![GT flowchartk](/projectimages/GTFlowKid.png)
-![GT flowchartp](/projectimages/GTFlowParent.png)
+![User Flow](/projectimages/GTFlowParent.png)
 ![GT final](/projectimages/.jpg)
 
 <div class="csblock" id="results" style="margin-top: 100px; margin-bottom: 10px"> 

@@ -1,6 +1,6 @@
 ---
 title: 10 Albums of the 2010s
-updated: 2020-07-05 00:00
+updated: 2020-09-05 00:00
 published: true
 category: Project
 tag: ["Featured Project"]
