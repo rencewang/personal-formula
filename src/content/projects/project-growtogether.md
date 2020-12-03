@@ -7,7 +7,7 @@ tag: ["Featured Project"]
 permalink: "/project/adobe"
 type: project
 timeframe: "Apr. 2020"
-tools: "Adobe XD"
+tools: "Adobe XD, Illustrator"
 coverimage: ../../images/projectimages/gtheader.png
 description: "A tablet app for kids to learn about and stay safe during the international pandemic through tending to a virtual garden. Designed for US-college-wide Adobe + Nickelodeon Creative Jam, at which my teammate and I received 6th place out of 145 teams."
 link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
