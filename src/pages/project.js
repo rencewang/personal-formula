@@ -34,6 +34,7 @@ const ProjectPage = ({data}) => (
               <h4><a href="https://inmydefense.glitch.me/">In My Defense</a></h4>
           </div>
         </div>
+        <div className="projectgrid-glow"><span className="circle"></span></div>
       </div>
     
   </Layout>

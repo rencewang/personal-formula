@@ -19,6 +19,7 @@ const BlogPage = () => (
         <div className="bloggrid-nav-home">
           <BlogSide />
         </div>
+        <div className="bloggrid-glow"><span className="circle"></span></div>
       </div>
     
   </Layout>
