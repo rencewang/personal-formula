@@ -9,7 +9,7 @@ type: project
 timeframe: "Apr. 2020"
 tools: "Adobe XD, Illustrator"
 coverimage: ../../images/projectimages/gtheader.png
-description: "A tablet app for kids to learn about and stay safe during the international pandemic through tending to a virtual garden. Designed for US-college-wide Adobe + Nickelodeon Creative Jam, at which my teammate and I received 6th place out of 145 teams."
+description: "A tablet app for kids to learn about and stay safe during the international pandemic through tending to a virtual garden. Designed for US-college-wide Adobe + Nickelodeon Creative Jam, where my team placed 6th place out of 145 teams."
 link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 ---
 <div class="csblock" id="overview" style="margin-top: 10px;"> 
@@ -32,7 +32,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 
 ![GT header](/projectimages/gtheader.png)
 
-<div class="csblock" id="research" style="margin-bottom: 10px;"> 
+<div class="csblock" id="research" style="margin-top: 100px; margin-bottom: 10px;"> 
 <span class="csblockheading">
     Research
 </span>
@@ -46,14 +46,14 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 | **Feedback and rewards**     | Earn “seeds” as in-app currency for purchasing plants for the garden; instant response to actions, such as quiz submission  |
 | **Ease of navigation**       | Simple navigation consisting of taps and scrolls                                     |
 
-<div class="csblock" id="design" style="margin-bottom: 10px"> 
+<div class="csblock" id="design" style="margin-top: 100px; margin-bottom: 10px"> 
 <span class="csblockheading">
-    Design
+    Design Decisions
 </span>
 </div>
 
-<div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
-    <b>Garden:</b> I was responsible for creating graphical contents, as well as exploring the interactions for the garden page. In the garden, kid users can water their plants and access a market to purchase plants with in-app currency. They can also access their friend’s garden and water their friend’s plants. 
+<div class="csblock-limit csblock" style="margin: 20px auto 20px auto; width: 90%;"> 
+    <b>Garden:</b> I was responsible for creating graphical contents, as well as exploring the interactions for the garden page. In the garden, kid users can water their plants and access a market to purchase plants with in-app currency. They can also access their friend’s garden and water their friend’s plants, which allows them to stay connected to their friends. 
 </div>
 
 <div class="gt-showcase">
@@ -62,8 +62,8 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </div>
 
 
-<div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
-    <b>Carousel:</b> Kids can see their friend’s activity, which encourages them to check out different activities and do more on their own, thereby cultivating healthy competition.
+<div class="csblock-limit csblock" style="margin: 50px auto 20px auto; width: 90%;"> 
+    <b>Carousel:</b> At the top of the Explore page, kids can see their friend’s activity, which encourages them to check out different activities and do more on their own, thereby cultivating healthy competition.
 </div>
 
 <div class="gt-showcase">
@@ -71,8 +71,8 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
     <div class="gt-showcase-stat"><img src="/projectimages/GTCarouselEDG.gif"/></div>
 </div>
 
-<div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
-    <b>Explore:</b> On the Explore page, kids can explore indoor activities, take quizzes, and watch videos and read articles about the pandemic. “Seeds” can be earned through consuming content, and serve as the impetus for keeping users engrossed.
+<div class="csblock-limit csblock" style="margin: 50px auto 20px auto; width: 90%;"> 
+    <b>Explore:</b> We want the Explore page to be the portal for kids to learn and have fun. On the Explore page, kids can explore indoor activities, take quizzes, and watch videos and read articles about the pandemic. “Seeds” can be earned through consuming content, and serve as the impetus for keeping users engrossed.
 </div>
 
 <div class="gt-showcase">
@@ -80,8 +80,8 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
     <div class="gt-showcase-gif"><img src="/projectimages/GTExplore.gif"/></div>
 </div>
 
-<div class="csblock-limit csblock" style="margin-top: 10px; margin-bottom: 10px;"> 
-    <b>Parental Control:</b> Parents can set daily maximum time, as well as suggest activities and educational content, for their children.
+<div class="csblock-limit csblock" style="margin: 50px auto 20px auto; width: 90%;"> 
+    <b>Parental Control:</b> In addition to the kids' interface, we designed a completely different flow for parents, giving them more control over and opportunity to interact with their kids. Parents can set daily maximum time, monitor viewing activity, approve activity completion, and suggest activities and educational content for their children.
 </div>
 
 <div class="gt-showcase">
@@ -89,7 +89,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
     <div class="gt-showcase-stat"><img src="/projectimages/GTParentEDG.gif"/></div>
 </div>
 
-<div class="csblock" id="context"> 
+<div class="csblock" id="context" style="margin-top: 100px; margin-bottom: 10px"> 
 <span class="csblockheading">
     Process
 </span>
@@ -100,7 +100,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 ![GT flowchartp](/projectimages/.jpg)
 ![GT final](/projectimages/.jpg)
 
-<div class="csblock" id="results"> 
+<div class="csblock" id="results" style="margin-top: 100px; margin-bottom: 10px"> 
 <span class="csblockheading">
     Results
 </span>
