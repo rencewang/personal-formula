@@ -97,7 +97,7 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </span>
 </div>
 
-![GT sketches](/projectimages/.jpg)
+![Sketches](/projectimages/.jpg)
 ![Wireframe](/projectimages/GTWireframes.png)
 ![Colors](/projectimages/GTColors.png)
 
@@ -107,20 +107,20 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
 </span>
 </div>
 
+![Flow Chart](/projectimages/GTFlow.png)
+
 <div class="csblock-limit csblock" style="font-size: 40px; margin: 50px auto 20px auto;"> 
     <b>For Kids:</b> 
 </div>
 
-![GT simpleflow](/projectimages/.jpg)
 ![Kid's Flow](/projectimages/GTFlowKid.png)
 
 <div class="csblock-limit csblock" style="font-size: 40px; margin: 50px auto 20px auto;"> 
     <b>For Parents:</b> 
 </div>
 
-![GT simpleflow](/projectimages/.jpg)
 ![User Flow](/projectimages/GTFlowParent.png)
-![GT final](/projectimages/.jpg)
+
 
 <div class="csblock" id="results" style="margin-top: 100px; margin-bottom: 10px"> 
 <span class="csblockheading">
@@ -131,3 +131,5 @@ link: https://xd.adobe.com/view/382ad66b-40c8-41f3-463c-bdb10b369787-4e1b/
         <li style="padding-top: 10px;">Furthermore, had there been more time, user-testing with kids is another direction worth attempting. It would have allowed us to pinpoint the interest of the specific demographics. Researching what apps are used and loved by kids in the age group would offer insight into whether our design was too playful, and whether middle schoolers would consider it too childish.
     </ul>
 </div>
+
+![Final Results](/projectimages/GTFinal.png)
