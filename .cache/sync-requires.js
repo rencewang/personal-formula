@@ -5,6 +5,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": (preferDefault(require("D:\\Document\\Github\\formula-update\\.cache\\dev-404-page.js"))),
   "component---src-pages-404-js": (preferDefault(require("D:\\Document\\Github\\formula-update\\src\\pages\\404.js"))),
   "component---src-pages-blog-js": (preferDefault(require("D:\\Document\\Github\\formula-update\\src\\pages\\blog.js"))),
   "component---src-pages-breathe-js": (preferDefault(require("D:\\Document\\Github\\formula-update\\src\\pages\\breathe.js"))),
