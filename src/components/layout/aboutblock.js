@@ -114,7 +114,7 @@ const BlogFeatured = () => {
             </div>
 
             <div className="about-text">
-                <p>I'm a student at &#x2609; Yale studying the intersection between computer science and design, along with economics and politics. I like basic things such as watching Chinese TV, making Spotify playlists, collecting song lyrics, and yelping. If you'd like to find out more about the interesting personality I never knew I had, you can check out my basic <Link to="/blog">opinions</Link>, my basic <Link to="/art/digital">art</Link>, or go find me &#x2197;&#xFE0E; while I get lost in space.</p>
+                <p>I'm a student at &#x2609; Yale studying the intersection between computer science and design. I like basic things such as watching Chinese TV, making Spotify playlists, collecting song lyrics, and yelping. If you'd like to find out more about the interesting personality I never knew I had, you can check out my basic <Link to="/blog">opinions</Link>, my basic <Link to="/art/digital">art</Link>, or go find me &#x2197;&#xFE0E; while I get lost in space.</p>
             </div>
 
             <div className="about-recents">
