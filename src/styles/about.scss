@@ -41,6 +41,9 @@
     }
     .about-text {
         border-top: 2px solid black;
+        a {
+            font-style: italic;
+        }
     }
     > div {
         padding: 5px 0;
