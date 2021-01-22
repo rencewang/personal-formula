@@ -109,7 +109,7 @@ const BlogFeatured = () => {
                 <div className="about-social">
                     <a href="https://www.instagram.com/rencewang/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     <a href="https://www.linkedin.com/in/lawrence-c-w/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    <a href="/">Resume</a>
+                    // <a href="/">Resume</a>
                 </div>
             </div>
 
