@@ -109,20 +109,21 @@ const BlogFeatured = () => {
                 <div className="about-social">
                     <a href="https://www.instagram.com/rencewang/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     <a href="https://www.linkedin.com/in/lawrence-c-w/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    // <a href="/">Resume</a>
+                    /* <a href="/">Resume</a> */
                 </div>
             </div>
 
             <div className="about-text">
-                <p>I'm a student at &#x2609; Yale studying the intersection between computer science and design. I like basic things such as watching Chinese TV, making Spotify playlists, collecting song lyrics, and yelping. If you'd like to find out more about the interesting personality I never knew I had, you can check out my basic <Link to="/blog">opinions</Link>, my basic <Link to="/art/digital">art</Link>, or go find me &#x2197;&#xFE0E; while I get lost in space.</p>
+                <p>I'm a student at &#x2609; Yale studying the intersection between computer science and design. I like basic things such as watching Chinese TV, making Spotify playlists, collecting song lyrics, and yelping. If you'd like to find out more about the interesting personality I never knew I had, you can check out my basic <i><Link to="/blog">opinions</Link></i>, my basic <i><Link to="/art/digital">art</Link></i>, or go find me &#x2197;&#xFE0E; while I get lost in space.</p>
             </div>
 
-//             <div className="about-recents">
-//                 <span>Recently &#x2014;</span>
-//                 <span><a href="https://youtu.be/iVQhkDZS_Tk" target="_blank" rel="noopener noreferrer">a dream</a></span>
-//                 <span><a href="https://www.planneduniverse.com" target="_blank" rel="noopener noreferrer">a blog about floor plans</a></span>
-//                 <span><a href="https://youtu.be/kBF5l9rWQFs" target="_blank" rel="noopener noreferrer">a lesson on child-rearing</a></span>
-//             </div>
+/*             <div className="about-recents">
+                 <span>Recently &#x2014;</span>
+                 <span><a href="https://youtu.be/iVQhkDZS_Tk" target="_blank" rel="noopener noreferrer">a dream</a></span>
+                 <span><a href="https://www.planneduniverse.com" target="_blank" rel="noopener noreferrer">a blog about floor plans</a></span>
+                 <span><a href="https://youtu.be/kBF5l9rWQFs" target="_blank" rel="noopener noreferrer">a lesson on child-rearing</a></span>
+             </div>
+*/
             <div></div>
             <div className="about-recents">
                 <span>Letters of Recommendation &#x2014;</span>
