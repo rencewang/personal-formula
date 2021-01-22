@@ -117,15 +117,18 @@ const BlogFeatured = () => {
                 <p>I'm a student at &#x2609; Yale studying the intersection between computer science and design. I like basic things such as watching Chinese TV, making Spotify playlists, collecting song lyrics, and yelping. If you'd like to find out more about the interesting personality I never knew I had, you can check out my basic <Link to="/blog">opinions</Link>, my basic <Link to="/art/digital">art</Link>, or go find me &#x2197;&#xFE0E; while I get lost in space.</p>
             </div>
 
-            <div className="about-recents">
-                <span>Recently &#x2014;</span>
-                <span><a href="https://youtu.be/iVQhkDZS_Tk" target="_blank" rel="noopener noreferrer">a dream</a></span>
-                <span><a href="https://www.planneduniverse.com" target="_blank" rel="noopener noreferrer">a blog about floor plans</a></span>
-                <span><a href="https://youtu.be/kBF5l9rWQFs" target="_blank" rel="noopener noreferrer">a lesson on child-rearing</a></span>
-            </div>
+//             <div className="about-recents">
+//                 <span>Recently &#x2014;</span>
+//                 <span><a href="https://youtu.be/iVQhkDZS_Tk" target="_blank" rel="noopener noreferrer">a dream</a></span>
+//                 <span><a href="https://www.planneduniverse.com" target="_blank" rel="noopener noreferrer">a blog about floor plans</a></span>
+//                 <span><a href="https://youtu.be/kBF5l9rWQFs" target="_blank" rel="noopener noreferrer">a lesson on child-rearing</a></span>
+//             </div>
             <div></div>
             <div className="about-recents">
                 <span>Letters of Recommendation &#x2014;</span>
+                <span><a href="https://youtu.be/iVQhkDZS_Tk" target="_blank" rel="noopener noreferrer">a dream</a></span>
+                <span><a href="https://www.planneduniverse.com" target="_blank" rel="noopener noreferrer">a blog about floor plans</a></span>
+                <span><a href="https://youtu.be/kBF5l9rWQFs" target="_blank" rel="noopener noreferrer">a lesson on child-rearing</a></span>
                 <span><a href="https://www.vogue.com/fashion-shows/fall-2005-couture/christian-dior/slideshow/collection#11" target="_blank" rel="noopener noreferrer">Dior without Maria Grazia</a></span>
                 <span><a href="https://youtu.be/HUMygkRhB88" target="_blank" rel="noopener noreferrer">ASMR</a></span>
                 <span><a href="https://open.spotify.com/album/52u4anZbHd6UInnmHRFzba?si=xNVxK3eXSrmCUEY5stXCEQ" target="_blank" rel="noopener noreferrer">Please Excuse Me For Being Antisocial</a></span>
