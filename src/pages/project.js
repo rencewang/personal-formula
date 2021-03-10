@@ -10,7 +10,8 @@ import "../styles/projectgrid.scss"
 const ProjectPage = ({data}) => (
   <Layout>
     <SEO title="Project" />
-
+  
+      <div className="content-fixedheight">
       <div className="projectgrid">
         <div className="projectgrid-content-home">
           <ProjectFeatured />
@@ -35,6 +36,7 @@ const ProjectPage = ({data}) => (
           </div>
         </div>
         <div className="projectgrid-glow"><span className="circle"></span></div>
+      </div>
       </div>
     
   </Layout>
