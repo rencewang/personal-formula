@@ -114,7 +114,7 @@ a.footnote-ref {
     // max-width: 1700px;
     .content {
         position: relative;
-        overflow-y: auto;
+        // overflow-y: auto;
         @media only screen and (max-width: 650px) {
             margin-top: 40px;
         }
