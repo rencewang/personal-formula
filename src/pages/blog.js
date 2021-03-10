@@ -10,7 +10,7 @@ import "../styles/bloggrid.scss"
 const BlogPage = () => (
   <Layout>
     <SEO title="Blog" />
-
+      <div className="content-fixedheight">
       <div className="bloggrid">
         <div className="bloggrid-content-home">
           <h2>Featured</h2>
@@ -21,7 +21,7 @@ const BlogPage = () => (
         </div>
         <div className="bloggrid-glow"><span className="circle"></span></div>
       </div>
-    
+      </div>
   </Layout>
 )
 
