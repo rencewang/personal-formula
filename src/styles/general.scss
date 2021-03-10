@@ -112,9 +112,8 @@ a.footnote-ref {
     height: 100%;
     width: 98%;
     // max-width: 1700px;
-    .content {
+    .content, content-fixedheight {
         position: relative;
-        // overflow-y: auto;
         @media only screen and (max-width: 650px) {
             margin-top: 40px;
         }
@@ -125,6 +124,9 @@ a.footnote-ref {
         @media (hover: none) {
             height: 100%;
         }
+    }
+    .content {
+        overflow-y: auto;
     }
     @media only screen and (max-width: 650px) {
         width: 95%;
