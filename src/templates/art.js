@@ -183,7 +183,8 @@ const ArtTemplate = props => {
     return (
         <Layout>
         <SEO title={pageTitle}/>
-    
+        
+        <div className="content">
           <section className="gallery">
               <div className="gallery-navigation bgcolor-changer">
                   <div><Link to="/art/design">Design</Link></div>
@@ -217,6 +218,7 @@ const ArtTemplate = props => {
                   </div>
               </main>
           </section>
+        </div>
         
         </Layout>
     )
