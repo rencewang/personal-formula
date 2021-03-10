@@ -13,9 +13,7 @@ const LayoutH = ({ children }) => {
     <div className="overall">
       <div className="container">
         <Header />
-        <div className="content">
-            {children}
-        </div>
+        {children}
         <Footer />
         <AboutBlock />
       </div>
