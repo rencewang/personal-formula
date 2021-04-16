@@ -13,7 +13,7 @@ const BlogPage = () => (
       <div className="content-fixedheight">
       <div className="bloggrid">
         <div className="bloggrid-content-home">
-          <h2>Featured</h2>
+          {/* <h2>Featured</h2> */}
           <BlogFeatured />
         </div>
         <div className="bloggrid-nav-home">

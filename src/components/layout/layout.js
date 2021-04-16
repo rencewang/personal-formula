@@ -14,7 +14,7 @@ const LayoutH = ({ children }) => {
       <div className="container">
         <Header />
         {children}
-        <Footer />
+        {/* <Footer /> */}
         <AboutBlock />
       </div>
     </div>

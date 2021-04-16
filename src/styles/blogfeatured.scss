@@ -17,10 +17,11 @@ input {
 		display: block;
 		position: relative;
         padding: 10px 30px 0 10px;
-        font-family: $listTitleFont;
+        // font-family: $listTitleFont;
+        font-family: "Segoe UI";
         font-size: 1.5rem;
         font-weight: 500;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         line-height: 1.1;
         > span {
             @media (hover: hover) {
@@ -33,7 +34,7 @@ input {
             transition: color 0.3s linear, text-shadow 0.3s linear;
         }
         @media (min-width: 992px) {
-          font-size: 3rem;
+          font-size: 5rem;
           padding: 2rem 2rem 0 0.7rem;
         }
         @media (max-width: 700px) {

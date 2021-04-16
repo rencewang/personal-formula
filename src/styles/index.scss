@@ -3,7 +3,10 @@
 #playlist-container {
     font-weight: 300;
     font-style: italic;
-    height: 45vw;
+    height: calc(100vh - 40px);
+    // min-height: 100vh;
+    // height: auto;
+    // margin-bottom: 10px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -12,8 +15,11 @@
     // overflow: hidden;
     position: relative;
     @media (max-width: 750px) {
-        height: 80vh;
-        margin-top: 20px;
+        // height: 80vh;
+        margin-top: 15px;
+    }
+    @media (max-width: 1200px) {
+        margin-top: 15px;
     }
     .load-track {
         z-index: -100;
@@ -47,16 +53,17 @@
         font-family: freight-big-pro, serif;
         height: 20%;
         white-space: nowrap;
-        font-size: 9vw;
+        padding: 0 0 5px 0;
+        font-size: 17vh;
         line-height: 8vw;
         opacity: 0;
         animation: fadeIn 1s ease forwards;
         animation-delay: 0.5s;
         // background-color: $backgroundColor;
-        @media only screen and (min-width: 1600px) {
-            font-size: 144px;
-            line-height: 144px;
-        }
+        // @media only screen and (min-width: 1600px) {
+        //     font-size: 144px;
+        //     line-height: 144px;
+        // }
         @media (hover: hover) {
             a:hover {
                 text-shadow: 0 0 7px rgba(0,0,0,0.9);
@@ -70,9 +77,9 @@
             overflow: visible;
         }
     }
-    @media only screen and (min-width: 1600px) {
-        height: 750px;
-    }
+    // @media only screen and (min-width: 1600px) {
+    //     height: 750px;
+    // }
 }
 
 .index-featured-group {

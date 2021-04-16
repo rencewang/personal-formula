@@ -29,9 +29,9 @@ const Header = () => {
 
       <div className={style.navigation}>
         <div>
-          <Link to="/project">
-            Project
-          </Link>
+          <a href="http://rencewang.com/">
+            Portfolio
+          </a>
         </div>
         &nbsp;
         <div>
@@ -41,9 +41,11 @@ const Header = () => {
         </div>
         &nbsp;
         <div>
-          <a href="/art/digital">
+          <Link to="/art/digital">
+          {/* <a href="/art/digital"> */}
             Art
-          </a>
+          {/* </a> */}
+          </Link>
         </div>
       </div>
 

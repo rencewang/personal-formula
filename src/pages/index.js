@@ -14,15 +14,15 @@ const IndexPage = () => (
         <div className="content">
           <div className="index-roll">
             <Tracklist />
-            <div className="index-featured-group">
+            {/* <div className="index-featured-group">
               <div className="index-titles"><span>Projects</span></div>
               <ProjectFeatured />
-            </div>
-            <div className="index-featured-group">
+            </div> */}
+            {/* <div className="index-featured-group">
               <div className="index-titles"><span>Writing</span></div>
               <BlogFeatured />
             </div>
-            <div className="index-glow"><span className="circle"></span></div>
+            <div className="index-glow"><span className="circle"></span></div> */}
           </div>
         </div>
     </Layout>
