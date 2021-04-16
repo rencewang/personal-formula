@@ -29,7 +29,7 @@ const BlogSide = () => {
     return (
         <div className="blogcategorylist">
 
-            {data.allMarkdownRemark.category.map((category, index) => (
+            {data.allMarkdownRemark.category.slice(0).reverse().map((category, index) => (
 
                 <div className="category" key={index}>
                     <h2>{category.fieldValue}</h2>
