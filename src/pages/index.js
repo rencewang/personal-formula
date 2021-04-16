@@ -2,8 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import ProjectFeatured from "../components/projectfeatured"
-import BlogFeatured from "../components/blogfeatured"
+// import ProjectFeatured from "../components/projectfeatured"
+// import BlogFeatured from "../components/blogfeatured"
 import Tracklist from "../components/tracklist"
 
 import "../styles/index.scss"
