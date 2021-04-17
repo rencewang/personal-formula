@@ -53,10 +53,10 @@ const Tracklist = () => {
                     <circle cx="150" cy="100" r="75" fill="none"/>
                     <g>
                         <use xlinkHref="#circlePath" fill="none"/>
-                        {/* <text fill="black" style="font-size: 13.5px;">
+                        {/* <text fill="black" style={{fontSize: '13.5px'}}>
                             <textPath xlinkHref="#circlePath">Can You Please Hear My Voices That Hungers For A Duo?</textPath>
                         </text> */}
-                        <text fill="#000" style="font-size: 18px;">
+                        <text fill="#000" style={{fontSize: '18px'}}>
                             <textPath xlinkHref="#circlePath">Songs That I've Been Listening To Lately</textPath>
                         </text>
                     </g>
