@@ -44,20 +44,23 @@ const Tracklist = () => {
             <div className="load-track">
                 {/* :) Today is {today}. It's nice to meet you. */}
                 <span class="circle"></span>
-                <div id="circle-text">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xmlSpace="preserve">
-                        <defs>
-                            <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
-                        </defs>
-                        <circle cx="150" cy="100" r="75" fill="none"/>
-                        <g>
-                            <use xlinkHref="#circlePath" fill="none"/>
-                            <text fill="#000">
-                                <textPath xlinkHref="#circlePath">Songs That I Have Been Listening To Lately</textPath>
-                            </text>
-                        </g>
-                    </svg>
-                </div>
+            </div>
+            <div className="circle-text">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xmlSpace="preserve">
+                    <defs>
+                        <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+                    </defs>
+                    <circle cx="150" cy="100" r="75" fill="none"/>
+                    <g>
+                        <use xlinkHref="#circlePath" fill="none"/>
+                        {/* <text fill="black" style="font-size: 13.5px;">
+                            <textPath xlinkHref="#circlePath">Can You Please Hear My Voices That Hungers For A Duo?</textPath>
+                        </text> */}
+                        <text fill="#000" style="font-size: 18px;">
+                            <textPath xlinkHref="#circlePath">Songs That I've Been Listening To Lately</textPath>
+                        </text>
+                    </g>
+                </svg>
             </div>
             {tracks.slice(0, 10).map((item, index) => (
                 <div className="track noselect" key={index}>
