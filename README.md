@@ -1,2 +1,3 @@
-Personal Site v4.0 
-rence.la
+rence.la v4.0 
+
+with Millionaire, gatsby
